@@ -1,0 +1,16 @@
+# TIE Fighter
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_part_tie_fighterfo"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_fighterfo.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_interceptorfo"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_interceptorfo.dds"
+	}
+}
+
+#note:tie-interceptorfo means Tie Silencer	
+	
+	

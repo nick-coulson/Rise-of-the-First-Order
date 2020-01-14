@@ -1,0 +1,7 @@
+# This is a template which multiple species can use. 
+  
+snoke_male_01_hair = {
+	default = "gfx/models/portraits/firstorder/firstorder_male_snoke_hair.dds"
+	
+}
+  

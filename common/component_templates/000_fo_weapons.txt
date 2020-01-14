@@ -1,0 +1,81 @@
+###############################Star_Ware_Ship_WEAPON################################################
+weapon_component_template = {
+	key = "EDY_SUPERLASER"
+	size = titanic
+	entity = "invisible_turret_entity"
+	
+	type = instant
+	
+	icon = "GFX_ship_part_sw_superlaser"
+	icon_frame = 1
+	
+	damage = { min = 50000 max = 100000 }
+	windup = { min = 45.0 max = 135.0 }
+	total_fire_time = 90
+	range = 320.0
+	accuracy = 0.9
+	tracking = 0.0
+	
+	shield_damage = 1.0
+	armor_damage = 1.4
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	hull_damage = 2.0
+	
+	power = -100
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 800
+		}
+	}
+	
+	#prerequisites = { "tech_zpm" }
+	component_set = "EDY_SUPERLASER"
+	projectile_gfx = "ed_superlaser"
+	tags = { weapon_type_energy }
+	size_restriction = { firstorder_ship_eclipse }
+	ai_tags = { weapon_role_long_range weapon_role_anti_armor }
+}
+#MANDATOR LASER
+weapon_component_template = {
+	key = "EDY_sithlaser"
+	size = titanic
+	entity = "invisible_turret_entity"
+	
+	type = instant
+	
+	icon = "GFX_ship_part_mandator_laser"
+	icon_frame = 1
+	
+	damage = { min = 10000 max = 20000 }
+	windup = { min = 45.0 max = 135.0 }
+	total_fire_time = 30
+	range = 320.0
+	accuracy = 0.9
+	tracking = 0.0
+	
+	shield_damage = 1.0
+	armor_damage = 1.4
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	hull_damage = 2.0
+	
+	power = -100
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 500
+		}
+	}
+	
+	#prerequisites = { "" }
+	component_set = "EDY_sithlaser"
+	projectile_gfx = "Red_superlaser_titan"
+	tags = { weapon_type_energy }
+	size_restriction = { "firstorder_ship_mandator" }
+	ai_tags = { weapon_role_long_range weapon_role_anti_armor }
+
+}

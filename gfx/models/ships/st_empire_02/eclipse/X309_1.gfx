@@ -1,0 +1,270 @@
+objectTypes = {
+	pdxmesh = {
+		name = "X309_1_mesh"
+		file = "gfx/models/ships/st_empire_02/eclipse/X309_1.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface1Shape"
+			index = 0
+			texture_diffuse = "Empire_Eclipse_SSD_Armor_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_Armor_Nom.dds"
+			texture_specular = "Empire_Eclipse_SSD_Armor_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "polySurface1Shape"
+			index = 1
+			texture_diffuse = "Empire_Eclipse_SSD_Armor2_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_Armor2_Nom.dds"
+			texture_specular = "Empire_Eclipse_SSD_Armor2_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "polySurface1Shape"
+			index = 2
+			texture_diffuse = "Engine_Exhaust5_Diff.dds"
+			texture_normal = "Engine_Exhaust5_Nom.dds"
+			texture_specular = "Engine_Exhaust5_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "X309_2_mesh"
+		file = "gfx/models/ships/st_empire_02/eclipse/X309_2.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface151Shape"
+			index = 0
+			texture_diffuse = "Empire_Eclipse_SSD_Armor_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_Armor_Nom.dds"
+			texture_specular = "Empire_Eclipse_SSD_Armor_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "polySurface151Shape"
+			index = 1
+			texture_diffuse = "Hanger_Diff.dds"
+			texture_normal = "Hanger_Nom.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "X309_3_mesh"
+		file = "gfx/models/ships/st_empire_02/eclipse/X309_3.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface664Shape"
+			index = 0
+			texture_diffuse = "Empire_Eclipse_SSD_Armor_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_Armor_Nom.dds"
+			texture_specular = "Empire_Eclipse_SSD_Armor_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "X309_4_mesh"
+		file = "gfx/models/ships/st_empire_02/eclipse/X309_4.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface903Shape"
+			index = 0
+			texture_diffuse = "Empire_Eclipse_SSD_Armor_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_Armor_Nom.dds"
+			texture_specular = "Empire_Eclipse_SSD_Armor_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "polySurface903Shape"
+			index = 1
+			texture_diffuse = "Lights_Grid_Teal_Ultra_Dense.dds"
+			texture_normal = "Lights_Grid_Teal_Ultra_Dense_morm.dds"
+			texture_specular = "Lights_Grid_Teal_Ultra_Dense_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "X309_5_mesh"
+		file = "gfx/models/ships/st_empire_02/eclipse/X309_5.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface2999Shape"
+			index = 0
+			texture_diffuse = "Empire_Eclipse_SSD_Armor_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_Armor_Nom.dds"
+			texture_specular = "Empire_Eclipse_SSD_Armor_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "polySurface2999Shape"
+			index = 1
+			texture_diffuse = "Empire_Eclipse_SSD_Armor2_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_Armor2_Nom.dds"
+			texture_specular = "Empire_Eclipse_SSD_Armor2_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "polySurface2999Shape"
+			index = 2
+			texture_diffuse = "Lights_Grid_Teal_Ultra_Dense.dds"
+			texture_normal = "Lights_Grid_Teal_Ultra_Dense_morm.dds"
+			texture_specular = "Lights_Grid_Teal_Ultra_Dense_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "X309_6_mesh"
+		file = "gfx/models/ships/st_empire_02/eclipse/X309_6.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface3048Shape"
+			index = 0
+			texture_diffuse = "Empire_Eclipse_SSD_Armor_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_Armor_Nom.dds"
+			texture_specular = "Empire_Eclipse_SSD_Armor_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "polySurface3048Shape"
+			index = 1
+			texture_diffuse = "Empire_Eclipse_SSD_SuperS_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_SuperS_Nom.dds"
+			texture_specular = "Empire_Eclipse_SSD_SuperS_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "polySurface3048Shape"
+			index = 2
+			texture_diffuse = "Lights_Grid_Teal_Ultra_Dense.dds"
+			texture_normal = "Lights_Grid_Teal_Ultra_Dense_morm.dds"
+			texture_specular = "Lights_Grid_Teal_Ultra_Dense_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "X309_7_mesh"
+		file = "gfx/models/ships/st_empire_02/eclipse/X309_7.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface3368Shape"
+			index = 0
+			texture_diffuse = "Empire_Eclipse_SSD_Armor_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_Armor_Nom.dds"
+			texture_specular = "Empire_Eclipse_SSD_Armor_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "polySurface3368Shape"
+			index = 1
+			texture_diffuse = "Lights_Grid_Teal_Ultra_Dense.dds"
+			texture_normal = "Lights_Grid_Teal_Ultra_Dense_morm.dds"
+			texture_specular = "Lights_Grid_Teal_Ultra_Dense_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "X309_8_mesh"
+		file = "gfx/models/ships/st_empire_02/eclipse/X309_8.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface4020Shape"
+			index = 0
+			texture_diffuse = "Lights_Grid_Teal_Ultra_Dense.dds"
+			texture_normal = "Lights_Grid_Teal_Ultra_Dense_morm.dds"
+			texture_specular = "Lights_Grid_Teal_Ultra_Dense_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+		pdxmesh = {
+		name = "X309_9_mesh"
+		file = "gfx/models/ships/st_empire_02/eclipse/X309_9.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface4021Shape"
+			index = 0
+			texture_diffuse = "Lights_Grid_Teal_Ultra_Dense.dds"
+			texture_normal = "Lights_Grid_Teal_Ultra_Dense_morm.dds"
+			texture_specular = "Lights_Grid_Teal_Ultra_Dense_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "X309_10_mesh"
+		file = "gfx/models/ships/st_empire_02/eclipse/X309_10.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface4308Shape"
+			index = 0
+			texture_diffuse = "Lights_Grid_Teal_Ultra_Dense.dds"
+			texture_normal = "Lights_Grid_Teal_Ultra_Dense_morm.dds"
+			texture_specular = "Lights_Grid_Teal_Ultra_Dense_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "polySurface4308Shape"
+			index = 1
+			texture_diffuse = "Empire_Eclipse_SSD_Armor_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_Armor_Nom.dds"
+			texture_specular = "Empire_Eclipse_SSD_Armor_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "X309_11_mesh"
+		file = "gfx/models/ships/st_empire_02/eclipse/X309_11.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface4833Shape"
+			index = 0
+			texture_diffuse = "Empire_Eclipse_SSD_Armor_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_Armor_Nom.dds"
+			texture_specular = "Empire_Eclipse_SSD_Armor_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "X309_12_mesh"
+		file = "gfx/models/ships/st_empire_02/eclipse/X309_12.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface5802Shape"
+			index = 0
+			texture_diffuse = "Empire_Eclipse_SSD_Armor_Diff.dds"
+			texture_normal = "Empire_Eclipse_SSD_Armor_Nom.dds"
+			texture_specular = "Empire_Eclipse_SSD_Armor_Spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

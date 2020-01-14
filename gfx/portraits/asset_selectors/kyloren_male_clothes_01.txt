@@ -1,0 +1,8 @@
+# This is a template which multiple species can use. 
+  
+kyloren_male_clothes_01 = {
+	default = "gfx/models/portraits/firstorder/firstorder_male_clothes_kyloren.dds"
+
+	
+}
+  

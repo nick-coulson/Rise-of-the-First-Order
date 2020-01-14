@@ -1,0 +1,166 @@
+ship_behavior = {
+	name = "SW_offense"
+	preferred_attack_range = 35
+	formation_distance = 45
+	return_to_formation_distance = 55
+
+	combat_target_anchor = root
+
+	collision_awareness = 0.2
+	collision_radius = 1.0							#collision_radius is a multiplier on the radius specified in the ship size
+	collision_strafe = 2.5							#collision_strafe allows the ship to move in any direction while colliding with another
+	attack_move_pattern = orbit
+	passive_move_pattern = charge
+	
+	desc = "SW_ESCORT_OFFENSIVE_BEHAVIOR_DESC"
+}
+
+ship_behavior = {
+	name = "SW_balance"
+	preferred_attack_range = 50
+	formation_distance = 60
+	return_to_formation_distance = 70
+
+	combat_target_anchor = root
+
+	collision_awareness = 0.2
+	collision_radius = 1.0							#collision_radius is a multiplier on the radius specified in the ship size
+	collision_strafe = 2.5							#collision_strafe allows the ship to move in any direction while colliding with another
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = charge
+	
+	desc = "SW_ESCORT_BALANCE_BEHAVIOR_DESC"
+}
+
+ship_behavior = {
+	name = "SW_defense"
+	preferred_attack_range = 100
+	formation_distance = 100
+	return_to_formation_distance = 130
+
+	combat_target_anchor = root
+
+	collision_awareness = 0.2
+	collision_radius = 1.0							#collision_radius is a multiplier on the radius specified in the ship size
+	collision_strafe = 2.5							#collision_strafe allows the ship to move in any direction while colliding with another
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = charge
+	
+	desc = "SW_ESCORT_DEFENSIVE_BEHAVIOR_DESC"
+}
+
+#### BC
+
+ship_behavior = {
+	name = "SW_offense_bc"
+	preferred_attack_range = 60
+	formation_distance = 70
+	return_to_formation_distance = 80
+
+	combat_target_anchor = root
+
+	collision_awareness = 0.2
+	collision_radius = 1.0							#collision_radius is a multiplier on the radius specified in the ship size
+	collision_strafe = 2.5							#collision_strafe allows the ship to move in any direction while colliding with another
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = charge
+	
+	desc = "SW_BATTLECRUISER_OFFENSIVE_BEHAVIOR_DESC"
+}
+
+ship_behavior = {
+	name = "SW_balance_bc"
+	preferred_attack_range = 120
+	formation_distance = 130
+	return_to_formation_distance = 140
+
+	combat_target_anchor = root
+
+	collision_awareness = 0.2
+	collision_radius = 1.0							#collision_radius is a multiplier on the radius specified in the ship size
+	collision_strafe = 2.5							#collision_strafe allows the ship to move in any direction while colliding with another
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = charge
+	
+	desc = "SW_BATTLECRUISER_BALANCE_BEHAVIOR_DESC"
+}
+
+## TITAN
+
+ship_behavior = {
+	name = "SW_defense_titan"
+	preferred_attack_range = 150
+	formation_distance = 180
+	return_to_formation_distance = 190
+
+	combat_target_anchor = root
+
+	collision_awareness = 0.2
+	collision_radius = 1.0							#collision_radius is a multiplier on the radius specified in the ship size
+	collision_strafe = 2.5							#collision_strafe allows the ship to move in any direction while colliding with another
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = charge
+	
+	desc = "SW_TITAN_DEFENSIVE_BEHAVIOR_DESC"
+}
+
+### FLAGSHIP
+
+ship_behavior = {
+	name = "SW_flagship"
+	preferred_attack_range = max
+	formation_distance = 260
+	return_to_formation_distance = 280
+
+	combat_target_anchor = root
+
+	collision_awareness = 0.2
+	collision_radius = 1.0							#collision_radius is a multiplier on the radius specified in the ship size
+	collision_strafe = 2.5							#collision_strafe allows the ship to move in any direction while colliding with another
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = charge
+	
+	desc = "SW_FLAGSHIP_DEFENSIVE_BEHAVIOR_DESC"
+}
+
+####Fighters
+
+ship_behavior = {
+	name = "SW_fighters_behavior"
+	preferred_attack_range = 20
+	formation_distance = 400
+	return_to_formation_distance = 500
+
+	attack_move_pattern = orbit
+	passive_move_pattern = charge
+}
+
+ship_behavior = {
+	name = "SW_bombers_behavior"
+	preferred_attack_range = max
+	formation_distance = 450
+	return_to_formation_distance = 550
+	
+	attack_move_pattern = orbit
+	passive_move_pattern = charge
+}
+
+ship_behavior = {
+	name = "SW_gunship_behavior"
+	preferred_attack_range = 140
+	formation_distance = 450
+	return_to_formation_distance = 550
+	
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = charge
+}
+
+ship_behavior = {
+	name = "SW_escort_behavior"
+	preferred_attack_range = 220
+	formation_distance = 450
+	return_to_formation_distance = 550
+	
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = charge
+}

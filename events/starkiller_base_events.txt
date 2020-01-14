@@ -1,0 +1,278 @@
+namespace = starkiller
+
+#Speech after Starkiller construction is finished
+country_event = {
+	id = starkiller.0
+	title = starkiller.0.name
+	desc = starkiller.0.desc
+	picture = GFX_evt_nicoll
+	hide_window = no
+	location = root
+	
+	is_triggered_only = yes
+	hide_window = yes
+	immediate = {
+		if ={ 
+			limit = {
+				not = {
+			has_country_flag = nomorespeech
+				}
+			}
+		play_sound = swfo_starkillerbase_completed_speech
+		}
+	}
+}
+
+#Trigger Sun drain - Starkiller Charge
+country_event = {
+	id = starkiller.1
+	title = starkiller.1.name
+	desc = starkiller.1.desc
+	picture = GFX_evt_nicoll
+	show_sound = event_sensor_ping
+	hide_window = yes
+	location = root
+	is_triggered_only = yes
+	
+	immediate = {
+	country_event = { id = starkiller.2 days = 30 }
+	set_country_flag = nomorespeech
+		solar_system = {
+			spawn_megastructure = { type = "swfo_sun_drain" location = event_target:sun_location01}
+		}
+		every_megastructure = {
+			if = {
+				limit = {
+					exists = this
+					is_megastructure_type = swfo_starkillerbase_2
+				}
+				remove_megastructure = this
+			}
+		}
+		solar_system = {
+			spawn_megastructure = { type = "swfo_starkillerbase_a" location = event_target:starkillerbase_location01}
+		}
+		play_sound = swfo_starkillerbase_charge
+	}
+}
+#Remove Sun drain
+country_event = {
+	id = starkiller.2
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		country_event = { id = starkiller.3 days = 1 }
+		#Remove Sun drain
+		every_megastructure = {
+			if = {
+				limit = {
+					exists = this
+					is_megastructure_type = swfo_sun_drain
+				}
+				remove_megastructure = this
+			}	#Reset Sun
+		}	
+	}
+}
+#Spawn Wormhole over Target Planet
+country_event = {
+	id = starkiller.3
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		country_event = { id = starkiller.4 days = 12 }
+		play_sound = swfo_starkillerbase_fire
+		every_megastructure = {
+			if = {
+				limit = {
+					exists = this
+					is_megastructure_type = starkiller_planet_target_marker_0
+				}
+				upgrade_megastructure_to = starkiller_planet_target_marker_1
+			}
+		}
+	}
+}
+#Fire Starkiller Base
+country_event = {
+	id = starkiller.4
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+	country_event = { id = starkiller.5 days = 10 }
+		every_megastructure = {
+			if = {
+				limit = {
+					exists = this
+					is_megastructure_type = swfo_starkillerbase_a
+				}
+				remove_megastructure = this
+			}
+		}
+		solar_system = {
+			spawn_megastructure = { type = "swfo_starkillerbase_2" location = event_target:starkillerbase_location01}
+		}
+	}
+}
+
+
+#Spawn Wormhole with Beam over Target Planet	#Destroy Target Planet
+country_event = {
+	id = starkiller.5
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		country_event = { id = starkiller.6 days = 13 }
+		every_megastructure = {
+			if = {
+				limit = {
+					exists = this
+					is_megastructure_type = starkiller_planet_target_marker_1
+				}
+				upgrade_megastructure_to = starkiller_planet_target_marker_2
+			}
+		}
+every_planet = {
+     if = {
+        limit = {
+            #Limit to Target Planet
+            has_planet_flag = built_target
+            OR = {
+                is_planet_class = pc_machine
+                is_planet_class = pc_frozen
+                is_planet_class = pc_barren
+                is_planet_class = pc_barren_cold
+                is_planet_class = pc_desert
+                is_planet_class = pc_arid
+                is_planet_class = pc_tundra
+                is_planet_class = pc_continental
+                is_planet_class = pc_tropical
+                is_planet_class = pc_ocean
+                is_planet_class = pc_alpine
+                is_planet_class = pc_savannah
+                is_planet_class = pc_nuked
+                is_planet_class = pc_infested
+                is_planet_class = pc_shielded
+                is_planet_class = pc_gaia
+                is_planet_class = pc_relic
+				is_planet_class = pc_city
+				is_planet_class = pc_aquatic
+				is_planet_class = pc_aquatichot
+				is_planet_class = pc_aquaticcold
+				is_planet_class = pc_aquaticcity
+				is_planet_class = pc_ecocity
+				is_planet_class = pc_bioforge
+				is_planet_class = pc_machine_factory
+				is_planet_class = pc_methane
+				is_planet_class = pc_ammonia
+				is_planet_class = pc_ash
+				is_planet_class = pc_irradiated
+				is_planet_class = pc_gghab
+				is_planet_class = pc_tmhab
+				is_planet_class = pc_tmhab2
+				is_planet_class = pc_mmhab
+				is_planet_class = pc_mmhab2
+				is_planet_class = pc_bhab
+				is_planet_class = pc_bchab
+				is_planet_class = pc_mhab
+				is_planet_class = pc_fhab
+				is_planet_class = pc_prairie
+				is_planet_class = pc_antarctic
+				is_planet_class = pc_snow
+				is_planet_class = pc_glacial
+				is_planet_class = pc_frozen_desert
+				is_planet_class = pc_steppe
+				is_planet_class = pc_hadesert
+				is_planet_class = pc_boreal
+				is_planet_class = pc_sandsea
+				is_planet_class = pc_subarctic
+				is_planet_class = pc_cascadian		
+				is_planet_class = pc_swamp
+				is_planet_class = pc_mangrove
+				is_planet_class = pc_desertislands
+				is_planet_class = pc_mesa
+				is_planet_class = pc_oasis
+				is_planet_class = pc_hajungle
+				is_planet_class = pc_mushroom
+				is_planet_class = pc_retinal
+				is_planet_class = pc_forest
+				is_planet_class = pc_med
+				is_planet_class = pc_primal
+				is_planet_class = pc_karst
+				is_planet_class = pc_superhabitable
+				is_planet_class = pc_tidallylocked
+				is_planet_class = pc_geothermal
+				is_planet_class = pc_biolumen
+				is_planet_class = pc_crystal
+				is_planet_class = pc_floating
+				is_planet_class = pc_graveyard
+				is_planet_class = pc_technoorganic
+				is_planet_class = pc_archive
+            }
+        }
+        change_pc = pc_shattered
+    }
+    if = {
+        limit = {
+		has_planet_flag = built_target
+            OR = {
+                is_planet_class = pc_habitat
+            }
+        }
+        remove_planet = yes
+    }
+}
+	}
+}
+#Reset
+country_event = {
+	id = starkiller.6
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+
+		#Delete Target Marker
+		every_megastructure = {
+			if = {
+				limit = {
+					exists = this
+					is_megastructure_type = starkiller_planet_target_marker_2
+				}
+				remove_megastructure = this
+			}
+			#Removes Firing Effect
+			if = {
+				limit = {
+					exists = this
+					is_megastructure_type = swfo_starkillerbase_2
+				}
+				remove_megastructure = this
+			}
+		}
+		every_planet_within_border = {
+			limit = {
+				has_planet_flag = buildingsoon
+			}
+			save_event_target_as = buildtargetsoon
+		}
+		#rebuilts Starkiller Base
+		solar_system = {
+			spawn_megastructure = { 
+				type = "swfo_starkillerbase_1" 
+				location = event_target:buildtargetsoon
+				owner = space_owner
+			}
+		}
+		#Allow building of Target Marker again
+		every_planet = {
+			limit = {
+				has_planet_flag = built_target
+			}
+		remove_planet_flag = built_target
+		}				
+	}
+}

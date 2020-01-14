@@ -1,0 +1,8 @@
+
+  
+fostormtrooperwhite_male_01_hair = {
+	default = "gfx/models/portraits/firstorder/firstorder_male_fostormtrooperwhite_hair.dds"
+	
+
+}
+  

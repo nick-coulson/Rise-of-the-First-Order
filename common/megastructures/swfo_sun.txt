@@ -1,0 +1,23 @@
+swfo_sun_drain = {
+
+	entity = "starkiller_sun_drain_entity"
+	construction_entity = ""
+	portrait = "GFX_megastructure_construction_background"
+	construction_blocks_others = no
+	upgrade_from = {
+	}
+	build_time = 0
+	
+	potential = {
+		always = no
+	}
+	possible = {
+	}
+	on_build_start = {}
+	on_build_cancel = {}
+	on_build_complete = {
+		fromfrom.planet = {
+			set_planet_flag = sunflaglocation
+		}
+	}	
+}

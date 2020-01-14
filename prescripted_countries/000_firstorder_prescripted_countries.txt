@@ -1,0 +1,78 @@
+"First Order" = {
+	name = "First Order"
+	initializer = "starkiller_base"
+	adjective = "First Order"
+	spawn_enabled = yes
+	flags = { firstorder custom_start_screen }	#Start Screen message
+	ship_prefix = "PRESCRIPTED_ship_prefix_tzynn"
+	
+	species = {
+		class = "First Order"
+		portrait = "firstorder"		#firstorder_portrait_snoke
+		name = "First Order"
+		plural = "First Order"
+		adjective = "First Order"
+		name_list = "swfo_name_list"
+		species_bio= "The First Order is the successor state to the defunct Galactic Empire. A military junta, the First Order seeks to dominate the galaxy again in the name of their Supreme Leader Snoke. While not as numerous as the Empire, the First Order is technologically superior to their predecessor and fully determined to restore the former glory of the empire by any means necessary. "
+		trait = "trait_strong"
+		trait = "trait_resilient"
+		trait = "trait_rapid_breeders"
+		trait = "trait_decadent"
+		trait = "trait_quarrelsome"
+	}
+	
+	
+	civics={
+		"civic_first_order_military"
+	}
+	room = "first_order_2_room"
+	
+	
+	#Ethic / Governments
+	authority = "auth_imperial"
+	government = "gov_star_empire"
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	
+	#System
+	planet_name = "Starkiller Base"
+	planet_class = "pc_arctic"
+	system_name = "Starkiller Base"
+	
+	#Designs
+	graphical_culture = "st_empire_02"				#Ship Design	
+	city_graphical_culture = "st_empire_02"		#City Design
+	
+	#Flag
+	empire_flag = {
+		icon= {
+			category = "firstorder"
+			file = "ftor1.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	#First-Ruler
+	ruler = {
+		ruler_title = "Supreme Leader"
+		ruler_title_female = "Supreme Leader"
+		heir_title = "Supreme Leader"
+		heir_title_female = "Supreme Leader"
+		name = "Snoke"
+		gender = male
+		portrait = "firstorder_portrait_snoke"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+	}	
+}

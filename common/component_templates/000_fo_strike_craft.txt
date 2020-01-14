@@ -1,0 +1,120 @@
+@attack_range = 15
+@launch_time = 0.5
+@count = 8
+@regen = 0.13
+
+@cost1 = 60
+@cost2 = 80
+
+@power1 = -40
+@power2 = -50
+
+#TIE/fo
+strike_craft_component_template = {
+	key = "SWFO_TIE_FIGHTER"
+	size = LARGE
+	entity = "swfo_tiefighter_entity"
+	
+	weapon_type = instant
+	projectile_gfx = "scout_laser_1"
+	power = @power1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost1
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_piracy_suppression_add = 5
+	}
+	
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+	
+	damage = { min = 5 max = 7 }
+	cooldown = 2.0
+	range = @attack_range
+	accuracy = 0.85
+	tracking = 0.80
+	
+	health = 45
+	armor = 11
+	shield = 20
+	evasion = 0.80
+	
+	speed = 975
+	rotation_speed = 0.82
+	acceleration = 4.2
+	
+	shield_damage = 5.5
+	armor_damage = 1.5
+	hull_damage = 3.0
+	
+	ship_behavior = "fighters_behavior"
+	
+	icon = "GFX_ship_part_tie_fighterfo"
+	icon_frame = 1
+	component_set = "SWFO_TIE_FIGHTER"
+	prerequisites = { "tech_strike_craft_tiefo" }
+	tags = { weapon_type_strike_craft }
+}
+
+#TIE silencer
+strike_craft_component_template = {
+	key = "SWFO_TIE_SILENCER"
+	size = LARGE
+	entity = "swfo_tieinterceptor_entity"
+	
+	weapon_type = instant
+	projectile_gfx = "scout_laser_1"
+	power = @power2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost2
+		}
+		upkeep = {
+			energy = 1.2
+			alloys = 0.65
+		}
+	}
+	modifier = {
+		ship_piracy_suppression_add = 5
+	}
+	
+	count = 4
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+	
+	damage = { min = 12 max = 15 }
+	cooldown = 2.0
+	range = @attack_range
+	accuracy = 0.90
+	tracking = 0.90
+	
+	health = 70
+	armor = 20
+	shield = 30
+	evasion = 1.0
+	
+	speed = 1250
+	rotation_speed = 1.2
+	acceleration = 4.0
+	
+	shield_damage = 6.0
+	armor_damage = 2.5
+	hull_damage = 5.0
+	
+	ship_behavior = "fighters_behavior"
+	
+	icon = "GFX_ship_part_tie_interceptorfo"
+	icon_frame = 1
+	component_set = "SWFO_TIE_SILENCER"
+	prerequisites = { "tech_strike_craft_tiesilencer" }
+	tags = { weapon_type_strike_craft }
+}

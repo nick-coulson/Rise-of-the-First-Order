@@ -1,0 +1,44 @@
+objectTypes = {
+
+#############Supremacy#########
+#moving
+	pdxparticle = {
+		name = "swfo_l_1_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 16.0
+	}
+#idle
+#	pdxparticle = {
+#		name = "swfo_l_1_ship_exhaust_idle_particle"
+#		type = "arthropoid_01_ship_exhaust_idle_large_file"
+#		scale = 16.0
+#	}
+	
+#############Resurgent#########
+#idle
+	#small
+	pdxparticle = {
+		name = "swfo_s_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 5.0
+	}
+	#large
+	pdxparticle = {
+		name = "swfo_l_0_exhaust_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 8.0
+	}
+#moving
+	#small
+	pdxparticle = {
+		name = "swfo_s_0_ship_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 5.0
+	}
+	#large
+	pdxparticle = {
+		name = "swfo_l_0_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 8.0
+	}
+}

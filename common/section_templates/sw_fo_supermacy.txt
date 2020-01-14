@@ -1,0 +1,571 @@
+@supremacy_section_cost = 5000
+
+#Bow
+ship_section_template = {
+	key = "supermacy_BOW"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = bow
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = strike_craft
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = strike_craft
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		slot_size = large
+		slot_type = strike_craft
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		slot_size = large
+		slot_type = strike_craft
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		slot_size = torpedo
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		slot_size = torpedo
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		slot_size = torpedo
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		slot_size = torpedo
+		slot_type = weapon
+		#locatorname = ""
+	}
+
+	large_utility_slots = 12
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}
+	
+#Mid1
+ship_section_template = {
+	key = "supermacy_MID1"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = mid1
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	large_utility_slots = 12
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}
+	
+#Mid2
+ship_section_template = {
+	key = "supermacy_MID2"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = mid2
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L013"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L014"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L015"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L016"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L018"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L019"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L020"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L021"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L022"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L023"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L024"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L023"
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		slot_size = large
+		slot_type = weapon
+		#locatorname = ""
+	}
+	large_utility_slots = 12
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}
+
+#Mid3
+ship_section_template = {
+	key = "supermacy_MID3"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = mid3
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		slot_size = extra_large
+		slot_type = weapon
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		slot_size = large
+		slot_type = weapon
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		slot_size = large
+		slot_type = weapon
+	}	
+	component_slot = {
+		name = "LARGE_GUN_15"
+		slot_size = large
+		slot_type = weapon
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		slot_size = large
+		slot_type = weapon
+	}	
+	large_utility_slots = 12
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}
+	
+#Stern
+ship_section_template = {
+	key = "supermacy_STERN"
+	ship_size = firstorder_ship_supremacy
+	fits_on_slot = stern
+	entity = "st_empire_02_supermacy_bow_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "L018"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "L019"
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		slot_size = torpedo
+		slot_type = weapon
+	}	
+	component_slot = {
+		name = "LARGE_GUN_16"
+		slot_size = torpedo
+		slot_type = weapon
+	}	
+	
+	aux_utility_slots = 4
+	large_utility_slots = 8
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @supremacy_section_cost
+		}
+	}
+}

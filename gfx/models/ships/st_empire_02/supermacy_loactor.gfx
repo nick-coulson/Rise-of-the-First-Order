@@ -1,0 +1,7 @@
+objectTypes = {
+	pdxmesh = {
+		name = "supermacy_loactor_mesh"
+		file = "gfx/models/ships/st_empire_02/supermacy_loactor.mesh"
+		scale = 4.12
+	}
+}

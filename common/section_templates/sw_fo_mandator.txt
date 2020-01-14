@@ -1,0 +1,389 @@
+@mandator_section_cost = 4000
+
+ship_section_template = {
+	key = "Manator_ship_BOW"
+	ship_size = firstorder_ship_mandator
+	fits_on_slot = main
+	entity = "first_01_Manator_bow_entity"
+	icon = "GFX_ship_part_core_bow"
+
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = titanic
+		slot_type = weapon
+		locatorname = "T01"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		slot_size = titanic
+		slot_type = weapon
+		locatorname = "T02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "HANGAR_01"
+		slot_size = large
+		slot_type = strike_craft
+	}
+	component_slot = {
+		name = "HANGAR_02"
+		slot_size = large
+		slot_type = strike_craft
+	}	
+	component_slot = {
+		name = "HANGAR_03"
+		slot_size = large
+		slot_type = strike_craft
+	}	
+	component_slot = {
+		name = "HANGAR_04"
+		slot_size = large
+		slot_type = strike_craft
+	}	
+	
+large_utility_slots = 8
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @mandator_section_cost
+		}
+	}
+}
+	
+#Mid1
+ship_section_template = {
+	key = "Manator_ship_MID1"
+	ship_size = firstorder_ship_mandator
+	fits_on_slot = bow
+	entity = "first_01_Manator_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L011"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L012"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L013"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L014"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L015"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L016"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L017"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L018"
+	}
+
+
+large_utility_slots = 8
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @mandator_section_cost
+		}
+	}
+}
+	
+#Mid2
+ship_section_template = {
+	key = "Manator_ship_MID2"
+	ship_size = firstorder_ship_mandator
+	fits_on_slot = mid
+	entity = "first_01_Manator_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L023"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L024"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L025"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L026"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L020"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L020"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L019"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L07"
+	}
+
+
+large_utility_slots = 8
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @mandator_section_cost
+		}
+	}
+}
+
+#Mid3
+ship_section_template = {
+	key = "Manator_ship_MID3"
+	ship_size = firstorder_ship_mandator
+	fits_on_slot = stern
+	entity = "first_01_Manator_bow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L010"
+	}
+
+	aux_utility_slots = 4
+	large_utility_slots = 4
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @mandator_section_cost
+		}
+	}
+}

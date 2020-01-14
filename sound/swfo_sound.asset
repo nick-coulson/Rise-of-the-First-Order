@@ -1,0 +1,32 @@
+sound =
+{
+	name = "sw_Superlaser_muzzle_01"
+	file = "weapons/sw_Superlaser_muzzle.wav"
+}
+sound =
+{
+	name = "sw_Superlaser_windup_01"
+	file = "weapons/sw_Superlaser_windup.wav"
+}
+sound =
+{
+	name = "sw_Superlaser_windup_02"
+	file = "weapons/sw_Superlaser_windup_long.wav"
+}
+
+sound =
+{
+	name = "swfo_starkillerbase_charge01"
+	file = "starkillerbase/swfo_starkillerbase_charge.wav"
+}
+
+sound =
+{
+	name = "swfo_starkillerbase_completed_speech01"
+	file = "starkillerbase/swfo_starkillerbase_completed_speech.wav"
+}
+sound =
+{
+	name = "swfo_starkillerbase_fire01"
+	file = "starkillerbase/swfo_starkillerbase_fire.wav"
+}

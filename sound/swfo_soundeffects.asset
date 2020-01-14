@@ -1,0 +1,82 @@
+soundeffect = {
+	name = sw_Superlaser_muzzle
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = sw_Superlaser_muzzle_01
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 1.0
+}
+
+soundeffect = {
+	name = sw_Superlaser_windup
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = sw_Superlaser_windup_01
+		
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 1.5
+}
+
+soundeffect = {
+	name = sw_Superlaser_windup_long
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = sw_Superlaser_windup_02
+		
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 4.5
+}
+################################Starkillerbase CHARGE#############
+soundeffect = {
+	name = swfo_starkillerbase_charge
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = swfo_starkillerbase_charge01
+		
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 1.0
+}
+################################Starkillerbase Completed Speech#############
+soundeffect = {
+	name = swfo_starkillerbase_completed_speech
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = swfo_starkillerbase_completed_speech01
+		
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 4
+}
+################################Starkillerbase Fire#############
+soundeffect = {
+	name = swfo_starkillerbase_fire
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = swfo_starkillerbase_fire01
+		
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.0 }
+	volume = 7.0
+}

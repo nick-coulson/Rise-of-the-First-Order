@@ -1,0 +1,148 @@
+################################################Target Marker Wormhole over Planet################################################
+entity = {
+	name = "starbasekiller_fire_planet_entity"
+	cull_radius = 1000
+	
+	# Here I refer to position values as x,y,z from left to right
+	# x,z are on the planetary plane, y is height
+	# x = cos(rotation)*radius, y = 0, z = sin(rotation)*radius
+	# eg. loc103 
+	# cos(30) = 0.866 , sin(30) = 0.5
+	# x =  250*0.866 = 216.5 , y = 0 , z = 250*0.5 = 125
+	# rotate the ringworld chunk 30 degree iterations
+	# planet plane ring			
+
+	locator = { name = "loc106" position = { 0 150 0 } rotation = { -90 0 0 }}
+
+	
+	attach = { "loc106" = "nicoll_laser_gate_planet_open_entity_nr"}
+
+
+	scale = 1 # change to increase or decrease distance between stars and rings, also effects planetary ring!
+}
+entity = {
+	name = "nicoll_laser_gate_planet_open_entity_nr"
+	cull_radius = 1000
+	
+	# Here I refer to position values as x,y,z from left to right
+	# x,z are on the planetary plane, y is height
+	# x = cos(rotation)*radius, y = 0, z = sin(rotation)*radius
+	# eg. loc103 
+	# cos(30) = 0.866 , sin(30) = 0.5
+	# x =  250*0.866 = 216.5 , y = 0 , z = 250*0.5 = 125
+	# rotate the ringworld chunk 30 degree iterations
+	# planet plane ring			
+
+	locator = { name = "loc106" position = { 0 0 0 } rotation = { 0 0 0 }}
+
+	
+	attach = { "loc106" = "starkiller_portal_entity"}
+
+
+	scale = 0.2 # change to increase or decrease distance between stars and rings, also effects planetary ring!
+}
+entity = {
+	name = "starkiller_portal_entity"
+	pdxmesh = "portal_mesh"
+	
+	locator = { name = "part1" 	position = { 0 0 0 } }
+	
+	default_state = idle
+	state = { name = "idle"		animation = "idle"		animation_blend_time = 0.3
+		start_event = { trigger_once = yes sound = { soundeffect = "ex_dimensional_portal_idle" } }
+	
+		event = { time = 0 node = "root2" particle = "portal_inner_effect_particle" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "clock_12_locator" particle = "portal_effect_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ex_dimensional_portal_thunder" } }
+		event = { time = 0 node = "clock_3_locator" particle = "portal_effect_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ex_dimensional_portal_thunder" } }
+		event = { time = 0 node = "clock_6_locator" particle = "portal_effect_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ex_dimensional_portal_thunder" } }
+		event = { time = 0 node = "clock_9_locator" particle = "portal_effect_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ex_dimensional_portal_thunder" } }
+	}
+	
+	#game_data = {
+	#	uv_animation_speed 		= 0.25
+	#	uv_animation_direction 	= { 0.0 -1.0 }
+	#}
+	
+	scale = 80
+}
+################################################Target Marker Firing into Planet################################################
+entity = {
+	name = "starkiller_planet_firing_finish_entity"
+	cull_radius = 1000
+	
+	# Here I refer to position values as x,y,z from left to right
+	# x,z are on the planetary plane, y is height
+	# x = cos(rotation)*radius, y = 0, z = sin(rotation)*radius
+	# eg. loc103 
+	# cos(30) = 0.866 , sin(30) = 0.5
+	# x =  250*0.866 = 216.5 , y = 0 , z = 250*0.5 = 125
+	# rotate the ringworld chunk 30 degree iterations
+	# planet plane ring			
+
+	locator = { name = "m1" position = { 0 150 0 } rotation = { 0 -90 0 }}
+
+	
+	attach = { "m1" = "starkiller_planet_firing_1_entity"}
+
+
+	scale = 1 # change to increase or decrease distance between stars and rings, also effects planetary ring!
+}
+
+entity = {
+	name = "starkiller_planet_firing_1_entity"
+	cull_radius = 1000
+	
+	# Here I refer to position values as x,y,z from left to right
+	# x,z are on the planetary plane, y is height
+	# x = cos(rotation)*radius, y = 0, z = sin(rotation)*radius
+	# eg. loc103 
+	# cos(30) = 0.866 , sin(30) = 0.5
+	# x =  250*0.866 = 216.5 , y = 0 , z = 250*0.5 = 125
+	# rotate the ringworld chunk 30 degree iterations
+	# planet plane ring			
+
+	locator = { name = "m1" position = { 0 0 -300 } rotation = { 0 -90 0 }}
+	locator = { name = "m2" position = { 0 0 -300 } rotation = { 0 -90 0 }}
+	locator = { name = "m3" position = { 0 0 -300 } rotation = { 0 -90 0 }}
+	locator = { name = "m4" position = { 0 0 -300 } rotation = { 0 -90 0 }}
+	locator = { name = "pew" position = { 0 10 0 } rotation = { 180 90 90 }}
+	locator = { name = "pew1" position = { 0 10 0 } rotation = { 180 90 90 }}
+	locator = { name = "pew2" position = { 0 10 0 } rotation = { 180 90 90 }}
+	locator = { name = "pew3" position = { 0 10 0 } rotation = { 180 90 90 }}
+	locator = { name = "loc102" position = { 0 10 0 } rotation = { 180 90 90 }}
+	locator = { name = "loc103" position = { 0 -10 0 } rotation = { 180 90 90 }}
+	locator = { name = "loc104" position = { 0 10 0 } rotation = { 180 90 90 }}
+	locator = { name = "loc105" position = { 0 -10 0 } rotation = { 180 90 90 }}
+	locator = { name = "loc106" position = { 0 0 0 } rotation = { 0 -90 0 }}
+
+	
+	attach = { "s1" = "first_01_starkiller_beamlazer_entity"}
+	attach = { "pew" = "fme01_titan_laser_muzzle_entity"}
+	attach = { "pew1" = "fme01_titan_laser_muzzle_entity"}
+	attach = { "pew2" = "titan_laser_hit_entity"}
+	attach = { "pew3" = "titan_laser_hit_entity"}
+	attach = { "loc102" = "firing_energy_2_entity"}
+	attach = { "loc103" = "firing_energy_2_entity"}
+	attach = { "loc104" = "firing_energy_2_entity"}
+	attach = { "loc105" = "firing_energy_2_entity"}
+	attach = { "loc106" = "starkiller"}
+
+
+	scale = 0.2 # change to increase or decrease distance between stars and rings, also effects planetary ring!
+}
+entity = { 
+	name = "firing_energy_2_entity"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0.0 node = "polar_effect_1" particle = "neutron_star_outburst_effect"  keep_particle = no trigger_once = yes }
+		event = { time = 0.0 node = "polar_effect_2" particle = "neutron_star_outburst_effect"  keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 15
+	
+	game_data = {
+		uv_animation_speed   = 0.5
+		uv_animation_direction  = { 0.75 1.0 }
+	}	
+}

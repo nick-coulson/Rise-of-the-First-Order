@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "supermacy_4_mesh"
+		file = "gfx/models/ships/st_empire_02/supermacy_4.mesh"
+		scale = 4.0
+
+		meshsettings = {
+			name = "ID1107Shape"
+			index = 0
+			texture_diffuse = "Lights_Grid_Teal_Dense.dds"
+			texture_normal = "Lights_Grid_Teal_Dense_norm.dds"
+			texture_specular = "Lights_Grid_Teal_Dense_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

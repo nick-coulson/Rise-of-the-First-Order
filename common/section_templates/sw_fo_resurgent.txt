@@ -1,0 +1,333 @@
+@resurgent_section_cost = 250
+#BOW Resurgent
+
+ship_section_template = {
+	key = "ST_RESURGENT_BOW"
+	ship_size = firstorder_ship_resurgent
+	fits_on_slot = bow
+	entity = "swfo_resurgent_allinone_entity"
+	icon = "GFX_ship_part_core_bow"
+	icon_frame = 1
+	
+###############links und rechts eins weiter außen hinten 2###############
+	component_slot = {
+		name = "GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "aft_medium_04"
+	}
+	component_slot = {
+		name = "GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "aft_medium_05"
+	}
+	component_slot = {
+		name = "GUN_03"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "aft_medium_06"
+	}
+	component_slot = {
+		name = "GUN_04"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "aft_medium_07"
+	}
+	
+###############Hangar###############
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		#rotation = 90
+		locatorname = "mid_strike_craft_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = strike_craft
+		#rotation = 90
+		locatorname = "mid_strike_craft_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		slot_size = large
+		slot_type = strike_craft
+		#rotation = 90
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		slot_size = large
+		slot_type = strike_craft
+		#rotation = 90
+	}
+	large_utility_slots = 8
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @resurgent_section_cost
+		}
+	}
+}
+
+#MID1 Resurgent (PORT)
+
+ship_section_template = {
+	key = "ST_RESURGENT_MID1"
+	ship_size = firstorder_ship_resurgent
+	fits_on_slot = mid1
+	entity = "swfo_resurgent_allinone_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+###############links und rechts ganz außen vorne###############
+
+	component_slot = {
+		name = "GUN_05"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "mid_medium_01"
+	}
+	component_slot = {
+		name = "GUN_06"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "mid_medium_02"
+	}
+	component_slot = {
+		name = "GUN_07"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "mid_medium_03"
+	}
+	component_slot = {
+		name = "GUN_08"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "mid_medium_04"
+	}
+	component_slot = {
+		name = "GUN_09"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "mid_medium_05"
+	}
+	component_slot = {
+		name = "GUN_10"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "mid_medium_06"
+	}
+	component_slot = {
+		name = "GUN_11"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "mid_medium_07"
+	}
+	component_slot = {
+		name = "GUN_12"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "mid_medium_08"
+	}
+	medium_utility_slots = 4
+	large_utility_slots = 4
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @resurgent_section_cost
+		}
+	}
+}
+
+#MID2 Resurgent hangar bay
+
+ship_section_template = {
+	key = "ST_RESURGENT_MID2"
+	ship_size = firstorder_ship_resurgent
+	fits_on_slot = mid2
+	entity = "swfo_resurgent_allinone_entity"
+	icon = "GFX_ship_part_core_mid"
+
+###############rechts halb außen hinten###############
+	component_slot = {
+		name = "GUN_14"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "aft_large_05"
+	}
+	component_slot = {
+		name = "GUN_15"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "aft_large_06"
+	}
+	component_slot = {
+		name = "GUN_16"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "aft_large_07"
+	}
+	component_slot = {
+		name = "GUN_17"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "aft_large_08"
+	}
+	
+	###############links halb außen hinten###############
+	component_slot = {
+		name = "GUN_18"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "aft_large_01"
+	}
+	component_slot = {
+		name = "GUN_19"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "aft_large_02"
+	}
+	component_slot = {
+		name = "GUN_20"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "aft_large_03"
+	}
+	component_slot = {
+		name = "GUN_21"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "aft_large_04"
+	}
+	###############links und rechts ganz außen hinten###############
+	
+	component_slot = {
+		name = "GUN_22"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "aft_medium_09"
+	}
+	component_slot = {
+		name = "GUN_24"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "aft_medium_11"
+	}
+	component_slot = {
+		name = "GUN_23"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "aft_medium_10"
+	}
+	component_slot = {
+		name = "GUN_25"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "aft_medium_12"
+	}
+	medium_utility_slots = 4
+	large_utility_slots = 4
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @resurgent_section_cost
+		}
+	}
+}
+
+#STERN Resurgent
+
+ship_section_template = {
+	key = "ST_RESURGENT_STERN"
+	ship_size = firstorder_ship_resurgent
+	fits_on_slot = stern
+	entity = "swfo_resurgent_allinone_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	###############Unten###############
+	
+	component_slot = {
+		name = "GUN_26"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "mid_medium_09"
+	}
+	component_slot = {
+		name = "GUN_27"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "mid_medium_10"
+	}
+	component_slot = {
+		name = "GUN_28"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "mid_medium_11"
+	}
+	component_slot = {
+		name = "GUN_29"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "mid_medium_12"
+	}
+	component_slot = {
+		name = "GUN_30"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "mid_torpedo_01"
+	}
+	component_slot = {
+		name = "GUN_31"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "mid_torpedo_02"
+	}
+###############links und rechts eins weiter außen hinten 1###############
+
+component_slot = {
+		name = "GUN_32"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "aft_medium_01"
+	}
+	component_slot = {
+		name = "GUN_33"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "aft_medium_02"
+	}
+	component_slot = {
+		name = "GUN_34"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "aft_medium_03"
+	}
+	component_slot = {
+		name = "GUN_35"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "aft_medium_08"
+	}
+	component_slot = {
+		name = "GUN_36"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "aft_medium_08"
+	}
+	component_slot = {
+		name = "GUN_37"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "aft_medium_08"
+	}
+	aux_utility_slots = 4
+	medium_utility_slots = 4
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @resurgent_section_cost
+		}
+	}
+}

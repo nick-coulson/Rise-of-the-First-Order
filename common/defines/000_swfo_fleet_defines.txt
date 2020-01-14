@@ -1,0 +1,7 @@
+NGraphics = {
+		SHIP_RANDOM_HEIGHT_OFFSET = 75  # vanilla = 15.0
+}
+NShip = {	
+		FLEET_BASE_FORMATION_SCALE	= 20  # vanilla = 2.0
+		FLEET_BASE_FORMATION_DIV	= 20  # vanilla = 10
+}

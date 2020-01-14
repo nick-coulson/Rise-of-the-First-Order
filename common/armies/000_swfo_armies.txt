@@ -1,0 +1,92 @@
+swfo_stormtrooper_legion = {
+	damage = 2.00
+	health = 2.00
+	morale = 2.00
+	morale_damage = 2.00
+	collateral_damage = 1.25
+	war_exhaustion = 1.00
+	time = 150
+	icon_frame = 2
+	prerequisites = { "tech_swfo_stormtrooper_legion" }
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 250
+		}
+	upkeep = {
+			energy = 1.5
+		}
+	}
+	allow = {
+		has_building = building_swfo_training_facilities
+	}
+	show_tech_unlock_if = { 
+		OR = {
+			NOT = { has_authority = auth_machine_intelligence }
+			has_valid_civic = civic_machine_assimilator
+		}
+	}
+	potential = {
+		from = {
+			NOR = {
+				has_trait = "trait_mechanical"
+				has_trait = "trait_machine_unit"
+				is_sapient = no
+			}
+		}
+		owner = {
+			OR = {
+				NOT = { has_authority = auth_machine_intelligence }
+				has_valid_civic = civic_machine_assimilator
+			}
+		}
+	}
+}
+
+
+swfo_atatm6_walker = {
+	damage = 4.0
+	health = 6.0
+	has_morale = no
+	morale_damage = 1.5
+	collateral_damage = 4.0
+	war_exhaustion = 4.0
+	time = 500
+	icon_frame = 2
+	prerequisites = { "tech_swfo_atatm6_walker" }
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 800
+		}
+		upkeep = {
+			energy = 8
+		}
+	}
+	allow = {
+		has_building = building_swfo_atat_factory
+	}
+	show_tech_unlock_if = { 
+		OR = {
+			NOT = { has_authority = auth_machine_intelligence }
+			has_valid_civic = civic_machine_assimilator
+		}
+	}
+	potential = {
+		from = {
+			NOR = {
+				has_trait = "trait_mechanical"
+				has_trait = "trait_machine_unit"
+				is_sapient = no
+			}
+		}
+		owner = {
+			OR = {
+				NOT = { has_authority = auth_machine_intelligence }
+				has_valid_civic = civic_machine_assimilator
+			}
+		}
+	}
+}

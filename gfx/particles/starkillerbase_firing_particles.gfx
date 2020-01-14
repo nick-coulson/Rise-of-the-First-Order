@@ -1,0 +1,31 @@
+objectTypes = {
+	pdxparticle = {
+		name = "starbasekiller_SW_effect"
+		type = "SW_starkiller_red_effect"
+		
+		scale = 110.0
+	}
+}
+
+
+
+objectTypes = {
+
+#################
+# Sun drain Particle
+#################
+
+	pdxparticle = {
+		name = "starkiller_sun_drain_particle"
+		type = "starkiller_sun_drain_effect"
+		
+		scale = 50.0
+	}
+}
+
+
+#good red
+
+		#	x=255.000
+		#	y=45.000
+		#	z=45.000

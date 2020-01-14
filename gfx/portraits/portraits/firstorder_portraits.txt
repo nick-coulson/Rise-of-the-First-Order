@@ -1,0 +1,228 @@
+portraits = {
+	#Snoke
+	firstorder_portrait_snoke = { entity = "portrait_human_male_01_entity"	clothes_selector = "snoke_male_clothes_01"	hair_selector = "snoke_male_01_hair"	greeting_sound = "human_male_greetings_02"}
+	
+	#Kyloren
+	firstorder_portrait_kylo_1 = { entity = "portrait_human_male_04_entity"	clothes_selector = "kyloren_male_clothes_01"	hair_selector = "kyloren_male_01_hair"	greeting_sound = "human_male_greetings_02" character_textures = { "gfx/models/portraits/firstorder/firstorder_male_kyloren_body.dds" }}	
+	firstorder_portrait_kylo_2 = { entity = "portrait_human_male_01_entity"	clothes_selector = "maskedkylo_male_clothes_01"	hair_selector = "maskedkylo_male_01_hair"	greeting_sound = "human_male_greetings_02"}
+	
+	
+	#Governors Male
+	firstorder_male_01_governor = {	entity = "portrait_human_male_01_entity"		clothes_selector = "firstorder_male_clothes_governor_01" 	hair_selector = "firstorder_male_hair_governor_01"		greeting_sound = "human_male_greetings_01"}
+	
+	#Governors Female
+	firstorder_female_01_governor = { entity = "portrait_human_female_01_entity"		clothes_selector = "firstorder_female_clothes_governor_01" 	hair_selector = "firstorder_female_hair_governor_01"		greeting_sound = "human_male_greetings_01"}	
+	
+	
+	#Admirals Male
+	firstorder_male_01_admiral = {	entity = "portrait_human_male_01_entity"		clothes_selector = "firstorder_male_clothes_admiral_01" 	hair_selector = "firstorder_male_hair_admiral_01"		greeting_sound = "human_male_greetings_01"}
+	
+	#Admirals Female
+	firstorder_female_01_admiral = {	entity = "portrait_human_female_01_entity"		clothes_selector = "firstorder_female_clothes_admiral_01" 	hair_selector = "firstorder_female_hair_admiral_01"		greeting_sound = "human_male_greetings_01"} 
+	
+	
+	#Scientists Male
+	firstorder_male_01_scientist = {	entity = "portrait_human_male_01_entity"		clothes_selector = "firstorder_male_clothes_scientist_01" 	hair_selector = "firstorder_male_hair_scientist_01"		greeting_sound = "human_male_greetings_01"} 
+	
+	#Scientists Female
+	firstorder_female_01_scientist = {	entity = "portrait_human_female_01_entity"		clothes_selector = "firstorder_female_clothes_scientist_01" 	hair_selector = "firstorder_female_hair_scientist_01"		greeting_sound = "human_male_greetings_01"} 
+	
+	
+	#Generals (Stormtroopers)
+	fostormtrooper_male_02 = { entity = "portrait_human_male_01_entity"	clothes_selector = "fostormtrooper_male_clothes_02"		hair_selector = "fostormtrooper_male_02_hair"		greeting_sound = "human_male_greetings_01"}	
+	
+	
+	#Stormtroopers
+	fostormtrooper_01 = { entity = "portrait_human_male_01_entity"	clothes_selector = "fostormtrooper_male_clothes_01"		hair_selector = "fostormtrooper_male_01_hair"		greeting_sound = "human_male_greetings_01"}
+				
+	#Sturmtroopers White
+	fostormtrooperwhite_male_01 = { entity = "portrait_human_male_01_entity"	clothes_selector = "fostormtrooperwhite_male_clothes_01"		hair_selector = "fostormtrooperwhite_male_01_hair"		greeting_sound = "human_male_greetings_01"}
+}
+	
+
+	
+	portrait_groups = {
+	firstorder = {
+	default = firstorder_portrait_snoke
+	game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+
+		#portrait used for rulers
+		add = {
+		trigger = {
+			ruler = { gender = male }
+			
+		}
+		portraits = {
+			firstorder_portrait_kylo_1
+			firstorder_portrait_kylo_2
+			firstorder_portrait_snoke
+			}
+		}
+		add = {
+		trigger = {
+			ruler = { gender = female }
+		}
+		portraits = {
+			firstorder_portrait_kylo_1
+			firstorder_portrait_kylo_2
+			firstorder_portrait_snoke
+			}
+		}
+	}
+
+	#Species
+	species = { #generic portrait for a species
+		add = {
+			portraits = {
+			fostormtrooper_01
+			}
+		}
+	}	
+##############################################################Pops##############################################################
+		#POP_JOB:RULER
+		pop = { #for a specific pop
+		#default = 
+		add = {
+		trigger = {
+					is_pop_category = ruler
+				}
+				portraits = {
+				firstorder_male_01_governor
+				}
+			}
+		}
+		
+		#POP_JOB:SPECIALIST
+		pop = { #for a specific pop
+		#default = 
+		add = {
+		trigger = {
+					is_pop_category = specialist
+				}
+				portraits = {
+				firstorder_male_01_admiral
+				}
+			}
+		}
+		
+		#POP_JOB:WORKER
+		pop = { #for a specific pop
+		#default = fostormtrooper_01
+		add = {
+		trigger = {
+					is_pop_category = worker
+				}
+				portraits = {
+				fostormtrooper_01
+				}
+			}
+		}
+		
+		#POP_JOB:Criminal
+		pop = { #for a specific pop
+		#default = fostormtrooper_01
+		add = {
+		trigger = {
+					is_pop_category = criminal
+				}
+				portraits = {
+				fostormtrooper_01
+				}
+			}
+		}
+##############################################################Leaders##############################################################
+	#Governor
+	leader = {
+	#default = firstorder_male_01_governor
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					firstorder_male_01_governor
+					}
+				}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					firstorder_female_01_governor
+				}
+			}
+		}
+			
+	#Scientist
+	leader = {
+		#default = firstorder_male_01_scientist
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					firstorder_male_01_scientist
+					}
+				}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					firstorder_female_01_scientist
+				}
+			}
+		}
+			
+			
+	#Admiral
+	leader = {
+		#default = firstorder_male_01_admiral
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					firstorder_male_01_admiral
+					}
+				}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					firstorder_female_01_admiral
+				}
+			}
+		}
+		
+		
+	#General	
+	leader = {
+		#default = fostormtrooper_02
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+				fostormtrooperwhite_male_01
+					}
+				}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+				fostormtrooperwhite_male_01
+				}
+			}
+		}
+	}
+}

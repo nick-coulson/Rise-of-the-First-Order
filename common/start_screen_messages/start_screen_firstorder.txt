@@ -1,0 +1,9 @@
+# First Order
+part = {
+    location = 0
+    localization = "START_SCREEN_firstorder"
+  
+    trigger = {
+        has_country_flag = firstorder
+    }    
+}

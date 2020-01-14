@@ -1,0 +1,85 @@
+#############
+#	POWER	#
+#############
+
+@resurgent_power_1 = 5000
+
+@supremacy_power_1 = 20000
+
+
+#############
+#	COST	#
+#############
+
+@resurgent_cost_1 = 150
+
+@supremacy_cost_1 = 400
+
+#############
+#  REACTORS #
+#############
+
+########################
+# Resurgent SJFS Reactors
+########################
+
+#######SJFS III-a1a######
+
+utility_component_template = {
+	key = "RESURGENT_SJFS_REACTOR"
+	size = small
+	icon = "GFX_resurgent_ship_part_reactor_1"
+	icon_frame = 1
+	power = @resurgent_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @resurgent_cost_1
+		}	
+		upkeep = {
+			energy = 0.10
+			alloys = 0.01
+		}
+	}
+	
+	prerequisites = { tech_RESURGENTREACTOR1 }
+	component_set = "power_core"
+	size_restriction = { "firstorder_ship_resurgent" }
+	#upgrades_to = "GFX_resurgent_ship_part_reactor_2"
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+
+########################
+# Supremacy Reactors
+########################
+
+utility_component_template = {
+	key = "SUPREMACY_MCSD_REACTOR"
+	size = small
+	icon = "GFX_supremacy_ship_part_reactor_1"
+	icon_frame = 1
+	power = @supremacy_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @supremacy_cost_1
+		}	
+		upkeep = {
+			energy = 0.10
+			alloys = 0.01
+		}
+	}
+	
+	prerequisites = { tech_SUPREMACYREACTOR1 }
+	component_set = "power_core"
+	size_restriction = { "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator"}
+	#upgrades_to = "GFX_resurgent_ship_part_reactor_2"
+	
+	ai_weight = {
+		weight = 1
+	}
+}

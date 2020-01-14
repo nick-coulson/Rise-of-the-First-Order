@@ -1,0 +1,325 @@
+﻿l_spanish:
+ FLAG_CATEGORY_firstorder:0 "First Order"
+ 
+ name_list_swfo_name_list:0 "First Order"
+ 
+ starkiller_base_NAME:0 "Unknown Regions"
+ starkiller_base_DESC:0 "Start on Starkiller Base, a superweapon of immense power."
+ 
+ thermal_oscillator:0 "BThermal Oscillator"
+ thermal_oscillator_desc:0 "Located on the surface of Starkiller Base, this component stores and houses dark energy collected from the star it orbits. This provides sufficient energy to not only power the base itself, but provide a boost towards physics research."
+ 
+ fostarkiller_base:0 "RDevastating Superweapon"
+ fostarkiller_base_desc:0 "Deep in the Unknown Regions, the First Order constructed a superweapon that used an entire planet as its weapons platform. Serving as a stronghold within First Order space, this converted mobile ice planet houses legions of soldiers, officers, and scientists that patrol and operate the machinery on the planet. It is also equipped with a planetary shield generator to defend itself against orbital bombardment."
+ 
+ kyber_crystals:0 "MRich in Kyber crystals"
+ kyber_crystals_desc: "A kyber crystal, simply known as a kyber, is a rare, Force-attuned crystal that grows in nature and is found on scattered planets across the galaxy. They were used by the Jedi and the Sith in the construction of their lightsabers. It can concentrate enormous amounts of power wich makes them ideal for use in laser weapons."
+ 
+ civic_first_order_military:0 "Project Resurrection"
+ civic_first_order_military_desc:0 "An operation supported by the First Order that focused on strengthening the numbers of both the army and navy with new recruits and cutting edge technology."
+ 
+ START_SCREEN_firstorder:0 "The First Order is the successor state to the defunct Galactic Empire. A military junta, the First Order seeks to dominate the galaxy again in the name of their Supreme Leader Snoke. While not as numerous as the Empire, the First Order is technologically superior to their predecessor and fully determined to restore the former glory of the empire by any means necessary."
+
+ weapon_testing_labs:0 "Weapon Testing Labs"
+ weapon_testing_labs_desc:0 "This mobile weapon houses a number of top-secret research and weapon facilities providing the latest in research technology."
+ 
+ mobile_capital:0 "Mobile Capital"
+ mobile_capital_desc:0 "Serving as a command center, mobile Super Weapon, and training facility, the Star Killer base is considered a mobile city with amenities that rival most capital worlds."
+
+ mobile_training_facility:0 "On-board Training Facilities"
+ mobile_training_facility_desc:0 "This massive weapon also contains a fully operational training center and barrack for legions of soldiers across the planet."
+ 
+ #################### - - - - ####################
+ #                   Policies                    #
+ #################### - - - - ####################
+
+ ####################
+ # Foreign Policy
+ ####################
+
+ policy_foreign_policy_rotfo:0 "Foreign Policy"
+ policy_foreign_policy_rotfo_desc:0 "Foreign Policy, or Foreign Relations, consists of the self-interest strategies chosen by the state to safeguard its national interests and to achieve goals within its intergalactic relations milieu."
+ isolationism_fp:0 "Isolationism"
+ isolationism_fp_desc:0 "The nations' interests are best served by keeping the affairs of other countries at a distance. Whether it is to avoid being drawn into dangerous conflicts or simply to ensure the purity of culture, this doctrine seeks to focus all effort on our own advancement.\n\n§EThis policy benefits a defensive and self-improvement focus at the cost of relations with other galactic entities."
+ balanced_foreign_policy_fp:0 "Balanced Foreign Policy"
+ balanced_foreign_policy_fp_desc:0 "Only by maintaining a balanced approach to our foreign relations can our nation continue to strive for greatness. We must be open to interact with others in the galaxy while also ensuring our own success is not neglected.\n\n§EThis is the balanced approach by most governments."
+ globalism_fp:0 "Intergalactic Commerce"
+ globalism_fp_desc:0 "As we further explore the stars we must cooperate with the others that populate the endless void of space. Only by integrating the countless intergalactic views, products, ideas, and other aspects of the cultures that surround us can we achieve prosperity.\n\n§EThis policy promotes friendly relations with the many other entities within the galaxy."
+ 
+ ####################
+ # Trade Policy
+ ####################
+
+ policy_trade_policy_rotfo:0 "Trade Laws"
+ policy_trade_policy_rotfo_desc:0 "Trade policy is the nation's position on free trade."
+ protectionism_tp:0 "Protectionism"
+ protectionism_tp_desc:0 "Protectionism is a government policy of taxation and discrimination against foreign imports."
+ balanced_trade_tp:0 "Balanced Trade"
+ balanced_trade_tp_desc:0 "Balanced Trade is a policy that provides a more intermediate approach to free trade. While trade is not completely free flowing, neither does it restrict foreign products to the extent of protectionist agendas."
+ free_trade_tp:0 "Free Trade"
+ free_trade_tp_desc:0 "Free trade is a policy explicitly aimed at allowing a free flow of goods across borders without undue interference by government officials, laws, or taxes."
+
+ ####################
+ # Market Policy
+ ####################
+
+ policy_market_policy_rotfo:0 "Market Laws"
+ policy_market_policy_rotfo_desc:0 "Market policy determines your national system of economic management."
+ laissez_faire_mp:0 "Laissez Faire"
+ laissez_faire_mp_desc:0 "Laissez Faire is a hands-off government policy that sees the market as the ultimate tool for progress, and believes that markets spontaneously organize human activity."
+ interventionism_mp:0 "Interventionism"
+ interventionism_mp_desc:0 "This policy finds the market to be a useful tool for growth, but that it needs occasional help from the government to succeed."
+ mixed_economy_mp:0 "Mixed Economy"
+ mixed_economy_mp_desc:0 "Mixed Economy is an economic system combining private and public enterprise."
+ state_capitalism_fp:0 "State Capitalism"
+ state_capitalism_fp_desc:0 "State capitalism demands that the state control the primary aspects of the economy, but leave the market to handle the less important things."
+ planned_economy_mp:0 "Planned Economy"
+ planned_economy_mp_desc:0 "The planned economy, also known as central planning, socializes the control of all economic resources into the hands of the state. All economic decisions are made by the state, and the market is excluded from functioning in the state in question."
+
+ ####################
+ # Religious Policy
+ ####################
+
+ policy_religious_policy_rotfo:0 "Religious Policy"
+ policy_religious_policy_rotfo_desc:0 "Religious policy determines your national stance on religion. This represents your government attitude towards religion, both broadly and in the context of the state religion."
+ atheism_rp:0 "Atheism"
+ atheism_rp_desc:0 "Atheism is the opposite of moralism. Rather than holding up one religion as the one true word, atheism actively attacks all religion as illegitimate."
+ secularized_rp:0 "Secularized"
+ secularized_rp_desc:0 "Secularism is the stance that the government has no place in religion, and should abstain from any and all involvement in religious affairs of any kind."
+ pluralism_rp:0 "Pluralism"
+ pluralism_rp_desc:0 "This policy holds that each citizen has the right to his own religious views, and that the religious majority (where there is one) has no right to infringe upon this free practice."
+ moralism_rp:0 "Moralism"
+ moralism_rp_desc:0 "Moralism promotes one religion above all others, and actively seeks to spread the state religion to religious minorities."
+
+ ####################
+ # Media Rights
+ ####################
+
+ policy_media_policy_rotfo:0 "Media Rights"
+ policy_media_policy_rotfo_desc:0 "The media rights of your nation dictate who controls the means of communication and information."
+ state_media_mr:0 "State Media"
+ state_media_mr_desc:0 "This choice restricts the media only to state-run or state-sanctioned bodies, allowing for almost total government control over information."
+ censored_media_mr:0 "Censored Media"
+ censored_media_mr_desc:0 "This option allows for a somewhat free media, but the government reserves the right to censor out material that it finds offensive or antagonistic to its goals."
+ free_media_mr:0 "Free Media"
+ free_media_mr_desc:0 "This options frees the media of government control. Information flows freely, and people are left to decide for themselves." 
+ 
+ ####################################
+ # Buildings
+ ####################################
+ 
+ building_swfo_training_facilities:0 "Stormtrooper Training Facilitys"
+ building_swfo_training_facilities_desc:0 "These buildings contain fully operational training centers and barracks for legions of soldiers. Like the clone troopers that inspired their generation, First Order stormtroopers were trained from birth, given alphanumeric designations instead of names and subjected to years of mental conditioning to ensure absolute loyalty. "
+ 
+ tech_building_swfo_training_facilities:0 "Stormtrooper Training Facilitys"
+ tech_building_swfo_training_facilities_desc:0 "These buildings contain fully operational training centers and barracks for legions of soldiers. Like the clone troopers that inspired their generation, First Order stormtroopers were trained from birth, given alphanumeric designations instead of names and subjected to years of mental conditioning to ensure absolute loyalty. "
+ 
+ 
+ building_swfo_atat_factory:0 "AT-M6 WALKER Manufactoring complex"
+ building_swfo_atat_factory_desc:0 "Lumbering armored beasts that are the latest generation in walkers, these enormous transports help the First Order secure the worlds of their expanding territories."
+ 
+ tech_building_swfo_atat_factory:0 "AT-M6 WALKER Manufactoring complex"
+ tech_building_swfo_atat_factory_desc:0 "Lumbering armored beasts that are the latest generation in walkers, these enormous transports help the First Order secure the worlds of their expanding territories."
+ ####################################
+ # Armys
+ ####################################
+ tech_swfo_stormtrooper_legion:0 "Stormtrooper Legion"
+ tech_swfo_stormtrooper_legion_desc:0 "First Order stormtroopers were trained from birth, given alphanumeric designations instead of names and subjected to years of mental conditioning to ensure absolute loyalty."
+ 
+ swfo_stormtrooper_legion:0 "Stormtrooper Legion"
+ swfo_stormtrooper_legion_desc:0 "First Order stormtroopers were trained from birth, given alphanumeric designations instead of names and subjected to years of mental conditioning to ensure absolute loyalty."
+ 
+ 
+ swfo_atatm6_walker:0 "AT-M6 WALKER"
+ swfo_atatm6_walker_desc:0 "Lumbering armored beasts that are the latest generation in walkers, these enormous transports help the First Order secure the worlds of their expanding territories."
+ 
+ tech_swfo_atatm6_walker:0 "AT-M6 WALKER"
+ tech_swfo_atatm6_walker_desc:0 "Lumbering armored beasts that are the latest generation in walkers, these enormous transports help the First Order secure the worlds of their expanding territories."
+ ####################################
+ # Ship Sizes
+ ####################################
+ firstorder_ship_resurgent:0 "Resurgent class Dreadnought"
+ firstorder_ship_resurgent_plural:0 "Resurgent class Dreadnought"
+ 
+ firstorder_ship_supremacy:0 "Mega-class Star Dreadnought" 
+ firstorder_ship_supremacy_plural:0 "Mega-class Star Dreadnoughts"
+ 
+ ####################################
+ # Section Designs
+ ####################################
+ ST_RESURGENT_BOW:0 "Resurgent Bow"
+ ST_RESURGENT_MID1:0 "Resurgent Port"
+ ST_RESURGENT_MID2:0 "Resurgent Starboard"
+ ST_RESURGENT_STERN:0 "Resurgent Stern"
+ 
+ supermacy_BOW:0 "Supremacy Bow"
+ supermacy_MID1:0 "Supremacy Port"
+ supermacy_MID2:0 "Supremacy Starboard I"
+ supermacy_MID3:0 "Supremacy Starboard II"
+ supermacy_STERN:0 "Supremacy Stern"
+ 
+ ####################################
+ # Ship Components
+ ####################################
+ 
+ ##############Combat computers##############
+ ST_RESURGENT_01_COMBAT_COMPUTER_1:0 "Basic Combat Computer"
+ ST_RESURGENT_01_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer"
+ ST_RESURGENT_01_COMBAT_COMPUTER_3:0 "Advanced Combat Computer"
+ ST_RESURGENT_01_COMBAT_COMPUTER_4:0 "Sentient Combat Computer"
+ ST_RESURGENT_01_COMBAT_COMPUTER_5:0 "Precognitive Interface"
+ 
+ ##############Hyper Space Tracker############## 
+ supremacy_hyperspacetracker_component:0 "Supremacy Hyperspace Tracking Control"
+ supremacy_hyperspacetracker_component_DESC:0 "The Supremacy used active tracking equipment that allowed it to pursue its targets through hyperspace. A static hyperspace field generated around the machines accelerated their processing power to unprecedented levels. A target´s last known trajectory yielded trillions of potential destinations, but the system could access these locations with terrifying speed. This also allowed the ship to jump over a much higher distance."
+ 
+ 
+ #################Resurgent#################
+ RESURGENT_SJFS_REACTOR:0 "SJFS III-A1A REACTOR"
+ RESURGENT_SJFS_REACTOR_DESC:0 "Resurgent-class Star Destroyers were powered by a single, large SJFS III-a1a reactor, housed within a dome-shaped reactor containment vessel on the ship's underbelly. The massive reactor was supported by a reinforced reactor superstructure and hull chassis. "
+ 
+ tech_RESURGENTREACTOR1:0 "SJFS III-A1A REACTOR"
+ tech_RESURGENTREACTOR1_desc:0 "Resurgent-class Star Destroyers were powered by a single, large SJFS III-a1a reactor, housed within a dome-shaped reactor containment vessel on the ship's underbelly. The massive reactor was supported by a reinforced reactor superstructure and hull chassis. "
+ 
+ RESURGENT_GEMON8_THRUSTER:0 "Gemon-8 Ion Engine"
+ RESURGENT_GEMON8_THRUSTER_DESC:0 "The Gemon-8 was a large model of ion engine used by the First Order on their Resurgent-class Star Destroyer. "
+ 
+ tech_RESURGENTTHRUSTER1:0 "Gemon-8 ion engine"
+ tech_RESURGENTTHRUSTER1_desc:0 "The Gemon-8 was a large model of ion engine used by the First Order on their Resurgent-class Star Destroyer."
+ 
+ #################Supremacy#################
+ tech_SUPREMACYREACTOR1:0 "DREADNOUGHT REACTOR"
+ tech_SUPREMACYREACTOR1_desc:0 "Star Dreadnoughts were powered by a single, large hypermatter-annihilation reactor."
+ 
+ SUPREMACY_MCSD_REACTOR:0 "DREADNOUGHT REACTOR"
+ SUPREMACY_MCSD_REACTOR_DESC:0 "Star Dreadnoughts were powered by a single, large hypermatter-annihilation reactor."
+ 
+ SUPREMACY_THRUSTER:0 "Dreadnought Engine System"
+ SUPREMACY_THRUSTER_DESC:0 "Star Dreadnoughts had sublight engines, wich were improvements upon the sublight engine System aboard the two Death Stars."
+ 
+ tech_SUPREMACYTHRUSTER1:0 "Mega-class Dreadnought Engine System"
+ tech_SUPREMACYTHRUSTER1_desc:0 "Mega-class Star Dreadnoughts had approximately 32 sublight engines, wich were improvements upon the sublight engine System aboard the two Death Stars."
+ 
+ tech_supremacyhyperspacetracker:0 "Supremacy Hyperspace Tracking Control"
+ tech_supremacyhyperspacetracker_desc:0 "The Supremacy used active tracking equipment that allowed it to pursue its targets through hyperspace. A static hyperspace field generated around the machines accelerated their processing power to unprecedented levels. A target´s last known trajectory yielded trillions of potential destinations, but the system could access these locations with terrifying speed. This also allowed the ship to jump over a much higher distance."
+ 
+ SHIP_SUPREMACY_HYPERSPACE_TRACKER:0 "Supremacy Hyperspace Tracking Control"
+ SHIP_SUPREMACY_HYPERSPACE_TRACKER_DESC:0 "The Supremacy used active tracking equipment that allowed it to pursue its targets through hyperspace. A static hyperspace field generated around the machines accelerated their processing power to unprecedented levels. A target´s last known trajectory yielded trillions of potential destinations, but the system could access these locations with terrifying speed. This also allowed the ship to jump over a much higher distance."
+ 
+ #################Orbital Canon#################
+ SHIP_MANDATOR_ORBITAL_CANON:0 "Mandator IV Orbital Canon"
+ SHIP_MANDATOR_ORBITAL_CANON_DESC:0 "The Mandator IV-class was armed with two orbital autocannon that could fire a salvo of two rounds each in quick succession before a recharge was needed."
+ 
+ ####################################
+ # Starbase Building (Shipyard)
+ ####################################
+ stardestroyer_yards_desc_modifier:0 "Shipyards: RStar Destroyer Construction Enabled!"
+ 
+ sm_stardestroyer_yards:0 "Resurgent class Shipyards"
+ sm_stardestroyer_yards_desc:0 "A critical naval complex for the First Order, the Resurgent Class Star Destroyer shipyards are the only ones with enough capacity to manufacture a complex ship like that. The shipyards orbiting the planets are used for capital ship repairs, manufacturing, and development of classified technologies. "
+ 
+ tech_starbasebuilding_stardestroyer:0 "Resurgent class Shipyards"
+ tech_starbasebuilding_stardestroyer_desc:0 "A critical naval complex for the First Order, the Resurgent Class Star Destroyer shipyards are the only ones with enough capacity to manufacture a complex ship like that. The shipyards orbiting the planets are used for capital ship repairs, manufacturing, and development of classified technologies. "
+
+ ####################################
+ # Resurgent Class (Ship)
+ ####################################
+ TECH_UNLOCK_DESTROYER_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Type:§! Resurgent Class Star Destroyer"
+ TECH_UNLOCK_DESTROYER_CONSTRUCTION_DESC:0 "§HDestroyer§!\nDesigned for advanced ship-to-ship combat capabilities, it served as a symbol of the First Order's power, inspiring awe in the Order's enemies and pride within its ranks. "
+ 
+ tech_RESURGENTCLASS:0 "Resurgent Class Star Destroyer"
+ tech_RESURGENTCLASS_desc:0 "Designed for advanced ship-to-ship combat capabilities, it served as a symbol of the First Order's power, inspiring awe in the Order's enemies and pride within its ranks. "
+ 
+ ####################################
+ # Mandator IV Class (Ship)
+ ####################################
+ firstorder_ship_mandator:0 "Mandator IV Siege Dreadnought"
+ firstorder_ship_mandator_plural:0 "Mandator IV Siege Dreadnoughts"
+ tech_MANDATORCLASS:0 "Mandator IV Siege Dreadnought"
+ tech_MANDATORCLASS_desc:0 "The Mandator IV-class Siege Dreadnought was a class of Star Dreadnought of the Mandator line and was two-and-a-half times the length of the Resurgent-class Star Destroyer, coming in at 7,669.71 meters. It had a crew of 53,000 officers, 140,000 enlisted personnel, and 22,000 stormtroopers."
+ Manator_ship_BOW:0 "Mandator IV Bow"
+ Manator_ship_MID1:0 "Mandator IV Port"
+ Manator_ship_MID2:0 "Mandator IV Starboard"
+ Manator_ship_MID3:0 "Mandator IV Stern"
+
+ ####################################
+ # Supremacy Class (Ship)
+ ####################################
+ tech_SUPREMACYCLASS:0 "Mega-class Star Dreadnought"
+ tech_SUPREMACYCLASS_desc:0 "The Supremacy was a Mega-class Star Dreadnought that served as the flagship of Supreme Leader Snoke and the mobile headquarters of the First Order."
+ ####################################
+ # Eclipse (Ship)
+ ####################################
+ tech_ECLIPSECLASS:0 "Eclipse-class Star Dreadnought"
+ tech_ECLIPSECLASS_desc:0 "The Eclipse-class dreadnought, also known as the Eclipse-class Super Star Destroyer, was a class of Imperial Super Star Destroyer manufactured by Kuat Drive Yards and mainly used around six years after the Battle of Endor. Like the Sovereign-class, they were regarded as a new generation of Super Star Destroyer. The First Order quickly recognized it´s superiority and built a prototype without the ability to destroy planets but with enough power to destroy entire Capital ships."
+ 
+ firstorder_ship_eclipse:0 "Eclipse-class Star Dreadnought"
+ firstorder_ship_eclipse_plural:0 "Eclipse-class Star Dreadnoughts"
+ firstorder_ship_eclipse_BOW:0 "Eclipse Bow"
+ firstorder_ship_eclipse_MID1:0 "Eclipse Mid1"
+ firstorder_ship_eclipse_MID2:0 "Eclipse Mid2"
+ firstorder_ship_eclipse_MID3:0 "Eclipse Mid3"
+ firstorder_ship_eclipse_STERN:0 "Eclipse Stern"
+ 
+ #Eclipse Superlaser
+ EDY_SUPERLASER:0 "Eclipse Superlaser"
+ EDY_SUPERLASER_DESC:0 "The most deadly weapon carried by Eclipse-class ships was an axial superlaser, similar to but significantly less powerful than one of the component beams used in the Death Star's superlaser. This superlaser was the pinnacle of Imperial destruction in their fleets."
+ 
+ #Mandator Superlaser
+ EDY_sithlaser:0 "Mandator IV Orbital Autocannon"
+ EDY_sithlaser_desc:0 "The Mandator IV-class was armed with two orbital autocannon that could fire a salvo of two rounds each in quick succession before a recharge was needed."
+ 
+ #TIE/fo
+ SWFO_TIE_FIGHTER:0 "TIE/fo"
+ SWFO_TIE_FIGHTER_DESC:0 "The TIE/fo space superiority fighter, commonly known as the First Order TIE fighter, was a starfighter used by the First Order. A product of Sienar-Jaemus Fleet Systems, the TIE/fo carried the appearance of its predecessor, the TIE/ln space superiority starfighter, though it featured internal advancements that provided it with greater defensive capabilities."
+ 
+ tech_strike_craft_tiefo:0 "TIE/fo"
+ tech_strike_craft_tiefo_desc:0 "The TIE/fo space superiority fighter, commonly known as the First Order TIE fighter, was a starfighter used by the First Order. A product of Sienar-Jaemus Fleet Systems, the TIE/fo carried the appearance of its predecessor, the TIE/ln space superiority starfighter, though it featured internal advancements that provided it with greater defensive capabilities."
+ 
+ #TIE Silencer
+ 
+ SWFO_TIE_SILENCER:0 "TIE/vn"
+ SWFO_TIE_SILENCER_DESC:0 "The TIE/vn space superiority fighter, formally known as the TIE vendetta space superiority fighter and also known as the TIE silencer, was an angular variant of the TIE line starfighters used by the First Order. A product of Sienar-Jaemus Fleet Systems, its aggressive design and equally impressive firepower was specifically crafted for use among the most elite members of the First Order."
+ 
+ tech_strike_craft_tiesilencer:0 "TIE/vn"
+ tech_strike_craft_tiesilencer_desc:0 "The TIE/vn space superiority fighter, formally known as the TIE vendetta space superiority fighter and also known as the TIE silencer, was an angular variant of the TIE line starfighters used by the First Order. A product of Sienar-Jaemus Fleet Systems, its aggressive design and equally impressive firepower was specifically crafted for use among the most elite members of the First Order."
+ 
+ 
+  ####################################
+ # Starkiller Base (Megastructure)
+ #################################### 
+ #Under Construction
+ swfo_starkillerbase_0:0 "Initiate construction process"
+ swfo_starkillerbase_0_DESC:0 ""
+ 
+ swfo_starkillerbase_0_1:0 "Construction Phase I"
+ swfo_starkillerbase_0_1_DESC:0 "It requires huge mining operations on this planet in order to harvest the planet's kyber crystal deposits for use in our war machine, and after sufficient excavation is completed, we will convert Starkiller Base into a mobile superweapon platform, with the colossal superlaser array embedded in the massive trench in the planet's crust. The conversion of the planet into a superweapon is easier, due to the trench having been dug out many years ago by the Empire."
+ 
+ swfo_starkillerbase_0_2:0 "Construction Phase II"
+ swfo_starkillerbase_0_2_DESC:0 "A thermal oscillator is a component found in various vehicles and machines. It is needed on our Starkiller Base superweapon, preventing the planet from destabilizing. Starkiller Base uses the power of a star to collect dark energy, which then is used to destroy distant star systems. In order to store this energy, the thermal oscillator generates an oscillating containment field which allowes the installation to expend considerably less power than normal at containing the vast amounts of dark energy it requires to run."
+ 
+ #Completed
+ swfo_starkillerbase_1:0 "Fire control"
+ swfo_starkillerbase_1_DESC:0 "A complete and operational Starkiller Base. It is capable of focusing the energy of a star into a hyper-energetic beam which can destroy entire planets."
+ swfo_starkillerbase_2:0 "FIRE"
+ swfo_starkillerbase_2_DESC:0 "We are now ready to fire our Starkiller Base Beam towards the designated target planet"
+ 
+ #Target Marker
+ starkiller_planet_target_marker_0:0 "Planetary Target Marker"
+ starkiller_planet_target_marker_0_DESC:0 "This virtual marker represents the target for the Starkiller Base."
+ starkiller_planet_target_marker_0_MEGASTRUCTURE_DETAILS:0 "Build on a planet to target it with the Starkiller Base." 
+ 
+ starkiller_planet_target_marker_1:0 "Wormhole"
+ starkiller_planet_target_marker_1_DESC:0 "The Starkiller Base is about to fire through this wormhole."
+ starkiller_planet_target_marker_2:0 "Wormhole"
+ starkiller_planet_target_marker_2_DESC:0 "The Starkiller Base is firing through this wormhole."
+ swfo_starkillerbase_a:0 "FIRING"
+ swfo_starkillerbase_a_DESC:0 ""
+ swfo_sun_drain:0 "Charging"
+ swfo_sun_drain_DESC:0 ""
+ 
+ ################
+ #EXEGOL
+ ################
+ sith_fortress:0 "Sith Citadel"
+ sith_fortress_desc:0 "An ancient Sith temple located on the hidden Sith world of Exegol and headquarters of the Sith Eternal cult and the Throne of the Sith. The citadel itself was a massive underground fortress with a large, upside-down pyramid structure made of black stone located on the surface."

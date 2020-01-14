@@ -1,0 +1,4 @@
+fostormtrooper_male_clothes_02 = {
+	default = "gfx/models/portraits/firstorder/fostormtrooper_male_clothes_02.dds"	
+}
+  

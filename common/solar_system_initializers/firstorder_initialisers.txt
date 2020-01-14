@@ -1,0 +1,166 @@
+# FIRST ORDER
+
+starkiller_base = {
+	name = "Starkiller Base"
+	class = "sc_f"
+	max_instances = 1
+	usage = custom_empire
+			
+			
+	#Asteroid Belts		
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 50
+	}
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 55
+	}
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 158
+	}
+	asteroid_belt = {
+		type = crystal_asteroid_belt
+		radius = 163
+	}
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 168
+	}
+
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 255
+	}
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 260
+	}
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 265
+	}
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		generate_home_system_resources = yes
+		spawn_megastructure = { type = "swfo_starkillerbase_0" location = event_target:starkillerbase_location01}
+		}	
+	#Sun
+	planet = {
+		name = "Deep Space"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 48
+		has_ring = no
+		init_effect = {
+			save_global_event_target_as = sun_location01
+		}
+	}
+	
+		
+
+	planet = {
+		name = "Exegol"
+		class = ideal_planet_class
+		orbit_distance = 60
+		orbit_angle = 2
+		has_ring = no
+		
+		
+		init_effect = {
+			prevent_anomaly = yes
+			change_pc = "pc_nuked"
+			set_planet_entity = {
+				entity = "nuked_planet_01_entity"
+				picture = pc_exegol
+			}
+		}
+		init_effect = {
+			add_modifier = {
+				modifier = "sith_fortress"
+				days = -1
+			}
+		}
+	}
+
+	#Starkiller Base
+	planet = {
+		init_effect = {
+			save_global_event_target_as = starkillerbase_location01
+		}
+		count = 1
+		name = "Starkiller Base"
+		class = pc_arctic
+		orbit_distance = 26
+		orbit_angle = 88
+		starting_planet = yes
+		home_planet = yes
+		size = 35
+		has_ring = no
+		
+	#Modifiers
+		init_effect = {
+			prevent_anomaly = yes
+			change_pc = "pc_arctic"
+			set_planet_entity = { 
+				entity = "pc_arctic" 
+				picture = pc_starkiller
+			}
+		}
+
+		init_effect = {
+			add_modifier = {
+				modifier = "mobile_capital"
+				days = -1
+			}
+		}
+		init_effect = {
+			add_modifier = {
+				modifier = "mobile_training_facility"
+				days = -1
+			}
+		}
+		init_effect = {
+			add_modifier = {
+				modifier = "weapon_testing_labs"
+				days = -1
+			}
+		}
+		init_effect = {
+			add_modifier = {
+				modifier = "fostarkiller_base"
+				days = -1
+			}
+		}
+		
+		init_effect = {
+			add_modifier = {
+				modifier = "thermal_oscillator"
+				days = -1
+			}
+		}
+		
+		init_effect = {
+			add_modifier = {
+				modifier = "kyber_crystals"
+				days = -1
+			}
+		}
+		
+		#init_effect = {
+		#	add_modifier = {
+		#		modifier = "noch was überlegen"
+		#		days = -1
+		#	}
+		}
+	}		
+}

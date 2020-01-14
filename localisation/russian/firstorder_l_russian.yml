@@ -1,0 +1,305 @@
+﻿l_russian:
+ FLAG_CATEGORY_firstorder:0 "Первый Орден"
+ 
+ name_list_swfo_name_list:0 "Первый Орден"
+ 
+ starkiller_base_NAME:0 "Неизведанные регионы"
+ starkiller_base_DESC:0 "Начните с базы Старкиллер, супероружия огромной мощности."
+ 
+ thermal_oscillator:0 "BТепловой Генератор"
+ thermal_oscillator_desc:0 "Расположенный на поверхности базы Старкиллер, этот компонент хранит и хранит темную энергию, собранную от звезды, вокруг которой он вращается. Это обеспечивает достаточную энергию не только для питания самой базы, но и дает толчок к физическим исследованиям."
+ 
+ fostarkiller_base:0 "RРазрушительное Супероружие"
+ fostarkiller_base_desc:0 "Глубоко в неизвестных регионах Первый Орден построил супероружие, которое использовало целую планету в качестве платформы для вооружения. Служа оплотом в пространстве первого порядка, эта преобразованная мобильная ледяная планета содержит легионы солдат, офицеров и ученых, которые патрулируют и управляют машинами на планете. Он также оснащен генератором планетарного щита для защиты от орбитальной бомбардировки."
+ 
+ kyber_crystals:0 "MБогат кристаллами Кибера"
+ kyber_crystals_desc: "Кристалл Кибера, просто известный как кибер, является редким, настроенным на силу кристаллом, который растет в природе и находится на рассеянных планетах по всей галактике. Они использовались джедаями и ситами при создании своих световых мечей. Он может концентрировать огромное количество энергии, что делает его идеальным для использования в лазерном оружии."
+ 
+ civic_first_order_military:0 "Проект Воскрешение"
+ civic_first_order_military_desc:0 "Операция, поддержанная первым приказом, которая сосредоточилась на усилении численности армии и флота новыми рекрутами и передовыми технологиями."
+ 
+ START_SCREEN_firstorder:0 "Первый Орден-это государство-преемник несуществующей Галактической Империи. Военная хунта, Первый Орден стремится снова доминировать в галактике во имя своего верховного лидера Снока. Хотя они и не столь многочисленны, как Империя, Первый Орден технологически превосходит своего предшественника и полон решимости восстановить былую славу империи любыми необходимыми средствами."
+
+ weapon_testing_labs:0 "Лаборатории по испытанию оружия"
+ weapon_testing_labs_desc:0 "Это мобильное оружие содержит ряд сверхсекретных исследовательских и оружейных объектов, обеспечивающих новейшие технологии исследований."
+ 
+ mobile_capital:0 "Мобильная столица"
+ mobile_capital_desc:0 "Являясь командным центром, мобильным супероружием и тренировочным центром, база звездного убийцы считается мобильным городом с удобствами, которые соперничают с большинством столичных миров."
+
+ mobile_training_facility:0 "Бортовые учебные помещения"
+ mobile_training_facility_desc:0 "Это массивное оружие также содержит полностью действующий учебный центр и казармы для легионов солдат по всей планете."
+ 
+#################### - - - - ####################
+#                   Policies                    #
+#################### - - - - ####################
+
+####################
+# Foreign Policy
+####################
+
+ policy_foreign_policy_rotfo:0 "Внешняя политика"
+ policy_foreign_policy_rotfo_desc:0 "Внешняя политика, или внешние отношения, состоит из стратегий собственных интересов, выбранных государством для защиты своих национальных интересов и достижения целей в рамках своей среды межгалактических отношений."
+ isolationism_fp:0 "Изоляционизм"
+ isolationism_fp_desc:0 "Интересам народов лучше всего служит то, что они держат дела других стран на расстоянии. Независимо от того, идет ли речь о том, чтобы избежать втягивания в опасные конфликты или просто обеспечить чистоту культуры, эта доктрина стремится сосредоточить все усилия на нашем собственном продвижении.\n\n§EЭта политика приносит пользу обороне и самосовершенствованию за счет отношений с другими галактическими образованиями."
+ balanced_foreign_policy_fp:0 "Сбалансированная внешняя политика"
+ balanced_foreign_policy_fp_desc:0 "Только сохраняя сбалансированный подход к нашим внешним отношениям, наша нация может продолжать стремиться к величию. Мы должны быть открыты для взаимодействия с другими людьми в галактике, а также обеспечивать, чтобы нашим собственным успехом не пренебрегали.\n\n§EЭто сбалансированный подход большинства правительств."
+ globalism_fp:0 "Межгалактическая Торговля"
+ globalism_fp_desc:0 "По мере дальнейшего изучения звезд мы должны сотрудничать с другими, населяющими бесконечную пустоту космоса. Только объединив бесчисленные межгалактические взгляды, продукты, идеи и другие аспекты окружающих нас культур, мы сможем достичь процветания.этическая политика способствует развитию дружественных отношений со многими другими сущностями в пределах галактики."
+ 
+
+####################
+# Trade Policy
+####################
+
+ policy_trade_policy_rotfo:0 "Торговые законы"
+ policy_trade_policy_rotfo_desc:0 "Торговая политика - это позиция государства в отношении свободной торговли."
+ protectionism_tp:0 "Протекционизм"
+ protectionism_tp_desc:0 "Протекционизм - это государственная политика налогообложения и дискриминации иностранного импорта."
+ balanced_trade_tp:0 "Сбалансированная торговля"
+ balanced_trade_tp_desc:0 "Сбалансированная торговля - это политика, которая обеспечивает более промежуточный подход к свободной торговле. Хотя торговля не является полностью свободной, она также не ограничивает иностранные товары в рамках протекционистских программ."
+ free_trade_tp:0 "Свободная торговля"
+ free_trade_tp_desc:0 "Free trade is a policy explicitly aimed at allowing a free flow of goods across borders without undue interference by government officials, laws, or taxes."
+
+####################
+# Market Policy
+####################
+
+ policy_market_policy_rotfo:0 "Рыночные законы"
+ policy_market_policy_rotfo_desc:0 "Рыночная политика определяет вашу национальную систему управления экономикой."
+ laissez_faire_mp:0 "Невмешательство"
+ laissez_faire_mp_desc:0 "Невмешательство - это отстраненная государственная политика, которая рассматривает рынок как конечный инструмент прогресса и считает, что рынки спонтанно организуют человеческую деятельность."
+ interventionism_mp:0 "Интервенционизм"
+ interventionism_mp_desc:0 "Эта политика считает, что рынок является полезным инструментом для роста, но что он нуждается в периодической помощи со стороны правительства, чтобы добиться успеха."
+ mixed_economy_mp:0 "Смешанная экономика"
+ mixed_economy_mp_desc:0 "Смешанная экономика - это экономическая система, объединяющая частное и государственное предпринимательство."
+ state_capitalism_fp:0 "Государственный капитализм"
+ state_capitalism_fp_desc:0 "Государственный капитализм требует, чтобы государство контролировало основные аспекты экономики, но оставляло рынку заниматься менее важными вещами."
+ planned_economy_mp:0 "Плановая экономика"
+ planned_economy_mp_desc:0 "Плановая экономика, известная также как централизованное планирование, социализирует контроль над всеми экономическими ресурсами в руках государства. Все экономические решения принимаются государством, и рынок исключается из функционирования в данном государстве."
+
+####################
+# Religious Policy
+####################
+
+ policy_religious_policy_rotfo:0 "Религиозная политика"
+ policy_religious_policy_rotfo_desc:0 "Религиозная политика определяет вашу национальную позицию в отношении религии. Это отражает отношение вашего правительства к религии, как в широком смысле, так и в контексте государственной религии."
+ atheism_rp:0 "Атеизм"
+ atheism_rp_desc:0 "Атеизм - это противоположность морализму. Вместо того чтобы считать одну религию единственным истинным словом, атеизм активно нападает на все религии как на незаконные."
+ secularized_rp:0 "Секуляризм"
+ secularized_rp_desc:0 "Секуляризм - это позиция, согласно которой правительство не имеет места в религии и должно воздерживаться от любого и всяческого участия в религиозных делах любого рода."
+ pluralism_rp:0 "Плюрализм"
+ pluralism_rp_desc:0 "Эта политика гласит, что каждый гражданин имеет право на свои собственные религиозные взгляды и что религиозное большинство (там, где оно есть) не имеет права посягать на эту свободную практику."
+ moralism_rp:0 "Морализм"
+ moralism_rp_desc:0 "Морализм ставит одну религию выше всех других и активно стремится распространить государственную религию на религиозные меньшинства."
+
+####################
+# Media Rights
+####################
+
+ policy_media_policy_rotfo:0 "Права СМИ"
+ policy_media_policy_rotfo_desc:0 "Права СМИ вашей страны диктуют, кто контролирует средства коммуникации и информации."
+ state_media_mr:0 "Государственные СМИ"
+ state_media_mr_desc:0 "Этот выбор ограничивает средства массовой информации только государственными или санкционированными государством органами, что позволяет почти полностью контролировать информацию со стороны правительства."
+ censored_media_mr:0 "Цензура СМИ"
+ censored_media_mr_desc:0 "Этот вариант предусматривает некоторую свободу средств массовой информации, но правительство оставляет за собой право подвергать цензуре материалы, которые оно считает оскорбительными или противоречащими его целям."
+ free_media_mr:0 "Свободные СМИ"
+ free_media_mr_desc:0 "Этот вариант освобождает средства массовой информации от государственного контроля. Информация течет свободно, и люди предоставлены сами себе решать." 
+ 
+ ####################################
+ # Buildings
+ ####################################
+ 
+ building_swfo_training_facilities:0 "Учебный Центр Штурмовиков"
+ building_swfo_training_facilities_desc:0 "Эти здания содержат полностью действующие учебные центры и казармы для легионов солдат. Подобно солдатам-клонам, вдохновлявшим свое поколение, штурмовики первого порядка обучались с самого рождения, получали буквенно-цифровые обозначения вместо имен и подвергались многолетним ментальным тренировкам, чтобы обеспечить абсолютную лояльность. "
+ 
+ tech_building_swfo_training_facilities:0 "Учебный Центр Штурмовиков"
+ tech_building_swfo_training_facilities_desc:0 "Эти здания содержат полностью действующие учебные центры и казармы для легионов солдат. Подобно солдатам-клонам, вдохновлявшим свое поколение, штурмовики первого порядка обучались с самого рождения, получали буквенно-цифровые обозначения вместо имен и подвергались многолетним ментальным тренировкам, чтобы обеспечить абсолютную лояльность. "
+ 
+ 
+ building_swfo_atat_factory:0 "Производственный комплекс AT-M6 WALKER"
+ building_swfo_atat_factory_desc:0 "Неуклюжие бронированные звери, которые являются последним поколением шагоходов, эти огромные транспорты помогают первому порядку обезопасить миры своих расширяющихся территорий."
+ 
+ tech_building_swfo_atat_factory:0 "Производственный комплекс AT-M6 WALKER"
+ tech_building_swfo_atat_factory_desc:0 "Неуклюжие бронированные звери, которые являются последним поколением шагоходов, эти огромные транспорты помогают первому порядку обезопасить миры своих расширяющихся территорий."
+ ####################################
+ # Armys
+ ####################################
+ tech_swfo_stormtrooper_legion:0 "Легион Штурмовиков"
+ tech_swfo_stormtrooper_legion_desc:0 "Штурмовики Первого Ордена обучались с самого рождения, им давали буквенно-цифровые обозначения вместо имен и подвергали многолетним ментальным тренировкам, чтобы обеспечить абсолютную лояльность."
+ 
+ swfo_stormtrooper_legion:0 "Легион Штурмовиков"
+ swfo_stormtrooper_legion_desc:0 "Штурмовики Первого Ордена обучались с самого рождения, им давали буквенно-цифровые обозначения вместо имен и подвергали многолетним ментальным тренировкам, чтобы обеспечить абсолютную лояльность."
+ 
+ 
+ swfo_atatm6_walker:0 "AT-M6 WALKER"
+ swfo_atatm6_walker_desc:0 "Неуклюжие бронированные звери, которые являются последним поколением шагоходов, эти огромные транспорты помогают первому порядку обезопасить миры своих расширяющихся территорий."
+ 
+ tech_swfo_atatm6_walker:0 "AT-M6 WALKER"
+ tech_swfo_atatm6_walker_desc:0 "Неуклюжие бронированные звери, которые являются последним поколением шагоходов, эти огромные транспорты помогают первому порядку обезопасить миры своих расширяющихся территорий."
+ ####################################
+ # Ship Sizes
+ ####################################
+ firstorder_ship_resurgent:0 "Дредноут класса Возрождающийся"
+ firstorder_ship_resurgent_plural:0 "Дредноут класса Возрождающийся"
+ 
+ firstorder_ship_supremacy:0 "Звездный Дредноут класса Мега" 
+ firstorder_ship_supremacy_plural:0 "Звездный Дредноут класса Мега"
+ 
+ ####################################
+ # Section Designs
+ ####################################
+ ST_RESURGENT_BOW:0 "Resurgent Bow"
+ ST_RESURGENT_MID1:0 "Resurgent Port"
+ ST_RESURGENT_MID2:0 "Resurgent Starboard"
+ ST_RESURGENT_STERN:0 "Resurgent Stern"
+ 
+ supermacy_BOW:0 "Supremacy Bow"
+ supermacy_MID1:0 "Supremacy Port"
+ supermacy_MID2:0 "Supremacy Starboard I"
+ supermacy_MID3:0 "Supremacy Starboard II"
+ supermacy_STERN:0 "Supremacy Stern"
+ 
+ ####################################
+ # Ship Components
+ ####################################
+ 
+ ##############Combat computers##############
+ ST_RESURGENT_01_COMBAT_COMPUTER_1:0 "Базовый Боевой Компьютер"
+ ST_RESURGENT_01_COMBAT_COMPUTER_2:0 "Промежуточный Боевой Компьютер"
+ ST_RESURGENT_01_COMBAT_COMPUTER_3:0 "Продвинутый Боевой Компьютер"
+ ST_RESURGENT_01_COMBAT_COMPUTER_4:0 "Разумный Боевой Компьютер"
+ ST_RESURGENT_01_COMBAT_COMPUTER_5:0 "Вещий Интерфейс"
+ 
+ ##############Hyper Space Tracker############## 
+ supremacy_hyperspacetracker_component:0 "Гиперпространственный Контроль Слежения Превосходства"
+ supremacy_hyperspacetracker_component_DESC:0 "Превосходство использовало активное следящее оборудование, которое позволяло ему преследовать свои цели через гиперпространство. Статическое гиперпространственное поле, создаваемое вокруг машин, ускорило их вычислительную мощность до беспрецедентного уровня. Последняя известная траектория цели давала триллионы потенциальных мест назначения, но система могла получить доступ к этим местам с ужасающей скоростью. Это также позволило кораблю перепрыгнуть гораздо большее расстояние."
+ 
+ 
+ #################Resurgent#################
+ RESURGENT_SJFS_REACTOR:0 "SJFS III-A1A РЕАКТОР"
+ RESURGENT_SJFS_REACTOR_DESC:0 "Звездные разрушители класса "возрождение" приводились в действие одним большим реактором SJFS III-a1a, размещенным в куполообразной защитной оболочке реактора на днище корабля. Массивный реактор поддерживался усиленной реакторной надстройкой и корпусным шасси. "
+ 
+ tech_RESURGENTREACTOR1:0 "SJFS III-A1A РЕАКТОР"
+ tech_RESURGENTREACTOR1_desc:0 "Звездные разрушители класса "возрождение" приводились в действие одним большим реактором SJFS III-a1a, размещенным в куполообразной защитной оболочке реактора на днище корабля. Массивный реактор поддерживался усиленной реакторной надстройкой и корпусным шасси. "
+ 
+ RESURGENT_GEMON8_THRUSTER:0 "Gemon-8 Ионный Двигатель"
+ RESURGENT_GEMON8_THRUSTER_DESC:0 "Gemon-8 был большой моделью ионного двигателя, использовавшегося Первым Орденом на их Звездном Разрушителе класса Возрождающийся."
+ 
+ tech_RESURGENTTHRUSTER1:0 "Gemon-8 Ионный Двигатель"
+ tech_RESURGENTTHRUSTER1_desc:0 "Gemon-8 был большой моделью ионного двигателя, использовавшегося Первым Орденом на их Звездном Разрушителе класса Возрождающийся."
+ 
+ #################Supremacy#################
+ tech_SUPREMACYREACTOR1:0 "РЕАКТОР ДРЕДНОУТА"
+ tech_SUPREMACYREACTOR1_desc:0 "Звездные дредноуты питались от одного большого реактора гиперматтерной аннигиляции."
+ 
+ SUPREMACY_MCSD_REACTOR:0 "РЕАКТОР ДРЕДНОУТА"
+ SUPREMACY_MCSD_REACTOR_DESC:0 "Звездные дредноуты питались от одного большого реактора гиперматтерной аннигиляции."
+ 
+ SUPREMACY_THRUSTER:0 "Система Двигателей Дредноута"
+ SUPREMACY_THRUSTER_DESC:0 "Звездные дредноуты имели субсветовые двигатели, которые были усовершенствованы в системе субсветовых двигателей на борту двух Звезд Смерти."
+ 
+ tech_SUPREMACYTHRUSTER1:0 "Система двигателей дредноута класса Мега"
+ tech_SUPREMACYTHRUSTER1_desc:0 "Звездные дредноуты класса Мега имели примерно 32 субсветовых двигателя, которые были усовершенствованы в системе субсветовых двигателей на борту двух звезд смерти."
+ 
+ tech_supremacyhyperspacetracker:0 "Гиперпространственный Контроль Слежения Превосходства"
+ tech_supremacyhyperspacetracker_desc:0 "Превосходство использовало активное следящее оборудование, которое позволяло ему преследовать свои цели через гиперпространство. Статическое гиперпространственное поле, создаваемое вокруг машин, ускорило их вычислительную мощность до беспрецедентного уровня. Последняя известная траектория цели давала триллионы потенциальных мест назначения, но система могла получить доступ к этим местам с ужасающей скоростью. Это также позволило кораблю перепрыгнуть гораздо большее расстояние."
+ 
+ SHIP_SUPREMACY_HYPERSPACE_TRACKER:0 "Гиперпространственный Контроль Слежения Превосходства"
+ SHIP_SUPREMACY_HYPERSPACE_TRACKER_DESC:0 "Превосходство использовало активное следящее оборудование, которое позволяло ему преследовать свои цели через гиперпространство. Статическое гиперпространственное поле, создаваемое вокруг машин, ускорило их вычислительную мощность до беспрецедентного уровня. Последняя известная траектория цели давала триллионы потенциальных мест назначения, но система могла получить доступ к этим местам с ужасающей скоростью. Это также позволило кораблю перепрыгнуть гораздо большее расстояние."
+ 
+ ####################################
+ # Starbase Building (Shipyard)
+ ####################################
+ stardestroyer_yards_desc_modifier:0 "Верфи: RДоступно Строительство Звездного Разрушителя!"
+ 
+ sm_stardestroyer_yards:0 "Верфи класса Возрождающийся"
+ sm_stardestroyer_yards_desc:0 "Критически важный военно-морской комплекс для Первого Ордена, возрождающиеся верфи класса Звездных Разрушителей - единственные, у кого достаточно мощностей для производства такого сложного корабля. Верфи, вращающиеся вокруг планет, используются для капитального ремонта судов, производства и разработки секретных технологий."
+ 
+ tech_starbasebuilding_stardestroyer:0 "Верфи класса Возрождающийся"
+ tech_starbasebuilding_stardestroyer_desc:0 "Критически важный военно-морской комплекс для Первого Ордена, возрождающиеся верфи класса Звездных Разрушителей - единственные, у кого достаточно мощностей для производства такого сложного корабля. Верфи, вращающиеся вокруг планет, используются для капитального ремонта судов, производства и разработки секретных технологий."
+
+ ####################################
+ # Resurgent Class (Ship)
+ ####################################
+ TECH_UNLOCK_DESTROYER_CONSTRUCTION_TITLE:0 "§HРазблокирует Тип Судна:§! Звёздный Разрушитель класса Возрождающийся"
+ TECH_UNLOCK_DESTROYER_CONSTRUCTION_DESC:0 "§HРазрушитель§!\nРазработанный для передовых боевых возможностей корабля к кораблю, он служил символом власти Первого Ордена, вызывая благоговение у врагов ордена и гордость в его рядах. "
+ 
+ tech_RESURGENTCLASS:0 "Звёздный Разрушитель класса Возрождающийся"
+ tech_RESURGENTCLASS_desc:0 "Разработанный для передовых боевых возможностей корабля к кораблю, он служил символом власти Первого Ордена, вызывая благоговение у врагов ордена и гордость в его рядах. "
+ 
+ ####################################
+ # Supremacy Class (Ship)
+ ####################################
+ tech_SUPREMACYCLASS:0 "Звездный Дредноут класса Мега"
+ tech_SUPREMACYCLASS_desc:0 "Супремат был звездным дредноутом класса Мега, который служил флагманом Верховного лидера Снока и мобильным штабом Первого Ордена."
+ ####################################
+ # Eclipse (Ship)
+ ####################################
+ tech_ECLIPSECLASS:0 "Звездный Дредноут класса Затмение"
+ tech_ECLIPSECLASS_desc:0 "Дредноут класса Затмение, также известный как суперзвездный Разрушитель класса Затмение, был Имперским суперзвездным Разрушителем, изготовленного компанией Kuat Drive Yards и в основном использовавшегося примерно через шесть лет после битвы при Эндоре. Как и класс Суверенный, они рассматривались как новое поколение суперзвездных разрушителей. Первый Орден быстро признал свое превосходство и построил прототип, не способный уничтожать планеты, но обладающий достаточной мощью, чтобы уничтожать целые линейные корабли."
+ 
+ firstorder_ship_eclipse:0 "Звездный Дредноут класса Затмение"
+ firstorder_ship_eclipse_plural:0 "Звездный Дредноут класса Затмение"
+ firstorder_ship_eclipse_BOW:0 "Eclipse Bow"
+ firstorder_ship_eclipse_MID1:0 "Eclipse Mid1"
+ firstorder_ship_eclipse_MID2:0 "Eclipse Mid2"
+ firstorder_ship_eclipse_MID3:0 "Eclipse Mid3"
+ firstorder_ship_eclipse_STERN:0 "Eclipse Stern"
+ 
+ #Eclipse Superlaser
+ EDY_SUPERLASER:0 "Суперлазер Затмения"
+ EDY_SUPERLASER_DESC:0 "Самым смертоносным оружием кораблей класса Затмение был осевой суперлазер, похожий на один из составных пучков, используемых в суперлазере "Звезды Смерти", но значительно менее мощный. Этот суперлазер был вершиной имперского разрушения в их флотах."
+ 
+ #TIE/fo
+ SWFO_TIE_FIGHTER:0 "TIE/vn"
+ SWFO_TIE_FIGHTER_DESC:0 "The TIE/vn space superiority fighter, formally known as the TIE vendetta space superiority fighter and also known as the TIE silencer, was an angular variant of the TIE line starfighters used by the First Order. A product of Sienar-Jaemus Fleet Systems, its aggressive design and equally impressive firepower was specifically crafted for use among the most elite members of the First Order."
+ 
+ tech_strike_craft_tiefo:0 "TIE/vn"
+ tech_strike_craft_tiefo_desc:0 "The TIE/vn space superiority fighter, formally known as the TIE vendetta space superiority fighter and also known as the TIE silencer, was an angular variant of the TIE line starfighters used by the First Order. A product of Sienar-Jaemus Fleet Systems, its aggressive design and equally impressive firepower was specifically crafted for use among the most elite members of the First Order."
+ 
+ #TIE Silencer
+ 
+ SWFO_TIE_SILENCER:0 "TIE/fo"
+ SWFO_TIE_SILENCER_DESC:0 "The TIE/fo space superiority fighter, commonly known as the First Order TIE fighter, was a starfighter used by the First Order. A product of Sienar-Jaemus Fleet Systems, the TIE/fo carried the appearance of its predecessor, the TIE/ln space superiority starfighter, though it featured internal advancements that provided it with greater defensive capabilities."
+ 
+ tech_strike_craft_tiesilencer:0 "TIE/fo"
+ tech_strike_craft_tiesilencer_desc:0 "The TIE/fo space superiority fighter, commonly known as the First Order TIE fighter, was a starfighter used by the First Order. A product of Sienar-Jaemus Fleet Systems, the TIE/fo carried the appearance of its predecessor, the TIE/ln space superiority starfighter, though it featured internal advancements that provided it with greater defensive capabilities."
+ 
+  ####################################
+ # Starkiller Base (Megastructure)
+ #################################### 
+ #Under Construction
+ swfo_starkillerbase_0:0 "Initiate construction process"
+ swfo_starkillerbase_0_DESC:0 ""
+ 
+ swfo_starkillerbase_0_1:0 "Construction Phase I"
+ swfo_starkillerbase_0_1_DESC:0 "It requires huge mining operations on this planet in order to harvest the planet's kyber crystal deposits for use in our war machine, and after sufficient excavation is completed, we will convert Starkiller Base into a mobile superweapon platform, with the colossal superlaser array embedded in the massive trench in the planet's crust. The conversion of the planet into a superweapon is easier, due to the trench having been dug out many years ago by the Empire."
+ 
+ swfo_starkillerbase_0_2:0 "Construction Phase II"
+ swfo_starkillerbase_0_2_DESC:0 "A thermal oscillator is a component found in various vehicles and machines. It is needed on our Starkiller Base superweapon, preventing the planet from destabilizing. Starkiller Base uses the power of a star to collect dark energy, which then is used to destroy distant star systems. In order to store this energy, the thermal oscillator generates an oscillating containment field which allowes the installation to expend considerably less power than normal at containing the vast amounts of dark energy it requires to run."
+ 
+ #Completed
+ swfo_starkillerbase_1:0 "Fire control"
+ swfo_starkillerbase_1_DESC:0 "A complete and operational Starkiller Base. It is capable of focusing the energy of a star into a hyper-energetic beam which can destroy entire planets."
+ swfo_starkillerbase_2:0 "FIRE"
+ swfo_starkillerbase_2_DESC:0 "We are now ready to fire our Starkiller Base Beam towards the designated target planet"
+ 
+ #Target Marker
+ starkiller_planet_target_marker_0:0 "Planetary Target Marker"
+ starkiller_planet_target_marker_0_DESC:0 "This virtual marker represents the target for the Starkiller Base."
+ starkiller_planet_target_marker_0_MEGASTRUCTURE_DETAILS:0 "Build on a planet to target it with the Starkiller Base." 
+ 
+ starkiller_planet_target_marker_1:0 "Wormhole"
+ starkiller_planet_target_marker_1_DESC:0 "The Starkiller Base is about to fire through this wormhole."
+ starkiller_planet_target_marker_2:0 "Wormhole"
+ starkiller_planet_target_marker_2_DESC:0 "The Starkiller Base is firing through this wormhole."
+ swfo_starkillerbase_a:0 "FIRING"
+ swfo_starkillerbase_a_DESC:0 ""
+ swfo_sun_drain:0 "Charging"
+ swfo_sun_drain_DESC:0 ""
+ 
+ ################
+ #EXEGOL
+ ################
+ sith_fortress:0 "Sith Citadel"
+ sith_fortress_desc:0 "An ancient Sith temple located on the hidden Sith world of Exegol and headquarters of the Sith Eternal cult and the Throne of the Sith. The citadel itself was a massive underground fortress with a large, upside-down pyramid structure made of black stone located on the surface."

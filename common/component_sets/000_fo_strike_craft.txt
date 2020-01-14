@@ -1,0 +1,16 @@
+# Icons set here are the ones shown in component editor list.
+
+#TIE/fo
+component_set = {
+	key = "SWFO_TIE_FIGHTER"
+	
+	icon = "GFX_ship_part_tie_fighterfo"
+	icon_frame = 1	
+}
+#Tie silencer
+component_set = {
+	key = "SWFO_TIE_SILENCER"
+	
+	icon = "GFX_ship_part_tie_interceptorfo"
+	icon_frame = 1	
+}

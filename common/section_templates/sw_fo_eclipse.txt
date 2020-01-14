@@ -1,0 +1,394 @@
+@eclipse_section_cost = 4000
+
+#Bow
+ship_section_template = {
+	key = "firstorder_ship_eclipse_BOW"
+	ship_size = firstorder_ship_eclipse
+	fits_on_slot = mid
+	entity = "X309_1_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	component_slot = {
+		name = "TITANIC_01"
+		slot_size = titanic
+		slot_type = weapon
+		locatorname = "W01"
+	}
+
+	large_utility_slots = 12
+	#aux_utility_slots = 4
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @eclipse_section_cost
+		}
+	}
+}
+	
+#Mid1
+ship_section_template = {
+	key = "firstorder_ship_eclipse_MID1"
+	ship_size = firstorder_ship_eclipse
+	fits_on_slot = bow
+	entity = "X309_1_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "W01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "W01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "W01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "W01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "W01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_06"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "W01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_07"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "W01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_08"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "W01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_09"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "W01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_10"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "W01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_11"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "W01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_12"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "W01"
+	}
+	large_utility_slots = 12
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @eclipse_section_cost
+		}
+	}
+}
+	
+#Mid2
+ship_section_template = {
+	key = "firstorder_ship_eclipse_MID2"
+	ship_size = firstorder_ship_eclipse
+	fits_on_slot = core
+	entity = "X309_1_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "L04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L10"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L11"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L12"
+	}
+
+	
+	large_utility_slots = 12
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @eclipse_section_cost
+		}
+	}
+}
+
+#Mid3
+ship_section_template = {
+	key = "firstorder_ship_eclipse_MID3"
+	ship_size = firstorder_ship_eclipse
+	fits_on_slot = data
+	entity = "X309_1_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L15"
+	}	
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L16"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L17"
+	}	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L18"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L19"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L20"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L21"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L22"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L23"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L24"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L09"
+	}
+
+	
+	large_utility_slots = 12
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @eclipse_section_cost
+		}
+	}
+}
+	
+#Stern
+ship_section_template = {
+	key = "firstorder_ship_eclipse_STERN"
+	ship_size = firstorder_ship_eclipse
+	fits_on_slot = stern
+	entity = "X309_1_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	component_slot = {
+		name = "PD_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L01"
+	}
+	component_slot = {
+		name = "PD_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L02"
+	}
+	component_slot = {
+		name = "PD_03"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L03"
+	}
+	component_slot = {
+		name = "PD_04"
+		slot_size = large
+		slot_type = strike_craft
+		locatorname = "L04"
+	}
+	component_slot = {
+		name = "PD_05"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L05"
+	}
+	component_slot = {
+		name = "PD_06"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L06"
+	}
+	component_slot = {
+		name = "PD_07"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L07"
+	}
+	component_slot = {
+		name = "PD_08"
+		slot_size = large
+		slot_type = strike_craft
+		locatorname = "L08"
+	}
+	component_slot = {
+		name = "PD_09"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L09"
+	}
+	component_slot = {
+		name = "PD_10"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L10"
+	}
+	component_slot = {
+		name = "PD_11"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "L11"
+	}
+	component_slot = {
+		name = "PD_12"
+		slot_size = large
+		slot_type = strike_craft
+		locatorname = "L12"
+	}
+
+
+	aux_utility_slots = 4
+	large_utility_slots = 8
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @eclipse_section_cost
+		}
+	}
+}

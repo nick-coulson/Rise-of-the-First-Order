@@ -1,0 +1,12 @@
+room_selector = {
+	default = "first_order_2_room"
+	game_setup = {
+		"first_order_1_room" = {}
+		"first_order_2_room" = {}
+		"first_order_3_room" = {}
+		"first_order_4_room" = {}
+		"first_order_5_room" = {}
+		"first_order_6_room" = {}
+	}
+
+}

@@ -1,0 +1,70 @@
+#############
+#	POWER	#
+#############
+
+
+@power_1 = -15
+
+#############
+#	COST	#
+#############
+
+
+@cost_1 = 150
+
+#######################
+# Resurgent THRUSTERS #
+#######################
+
+utility_component_template = {
+	key = "RESURGENT_GEMON8_THRUSTER"
+	size = small
+	icon = "GFX_resurgent_ship_part_thruster_1"
+	icon_frame = 1
+	power = @power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost_1
+		}
+	}
+	modifier = {
+		ship_base_speed_mult = 0.25
+	}
+	prerequisites = { "tech_RESURGENTTHRUSTER1" }
+	component_set = "thruster_components"
+	size_restriction = { "firstorder_ship_resurgent" }
+	#upgrades_to = "GFX_resurgent_ship_part_thruster_2"
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+#######################
+# Supremacy THRUSTERS #
+#######################
+
+utility_component_template = {
+	key = "SUPREMACY_THRUSTER"
+	size = small
+	icon = "GFX_supremacy_ship_part_thruster_1"
+	icon_frame = 1
+	power = @power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 200
+		}
+	}
+	#modifier = {
+	#	ship_base_speed_mult = 0.25
+	#}
+	prerequisites = { "tech_SUPREMACYTHRUSTER1"  }
+	component_set = "thruster_components"
+	size_restriction = { "firstorder_ship_supremacy" "firstorder_ship_eclipse" "firstorder_ship_mandator"}
+	#upgrades_to = "GFX_resurgent_ship_part_thruster_2"
+	
+	ai_weight = {
+		weight = 1
+	}
+}

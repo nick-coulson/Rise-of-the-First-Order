@@ -1,0 +1,617 @@
+music = {
+	name = "Empire Battle Theme 1"
+	file = "swfo_music_1.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "Empire Battle Theme 2"
+	file = "swfo_music_2.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "Empire Battle Theme 3"
+	file = "swfo_music_3.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "Empire Battle Theme 4"
+	file = "swfo_music_4.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "Empire Battle Theme 5"
+	file = "swfo_music_5.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "Empire Battle Theme 6"
+	file = "swfo_music_6.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "Empire Battle Theme 7"
+	file = "swfo_music_7.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "Imperial Attack"
+	file = "swfo_music_8.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Hologram & Binary Sunset"
+	file = "swfo_music_9.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Tales Of A Jedi Knight"
+	file = "swfo_music_10.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Burning Homestead"
+	file = "swfo_music_11.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Cantina Band"
+	file = "swfo_music_12.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Princess Leias Theme"
+	file = "swfo_music_13.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Shootout In The Cell Bay & Dianoga"
+	file = "swfo_music_14.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Ben Kenobis Death & Tie Fighter"
+	file = "swfo_music_15.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Throne & Room End Title"
+	file = "swfo_music_16.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Across The Stars"
+	file = "swfo_music_17.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Confrontation With Count Dooku"
+	file = "swfo_music_18.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Dark Trooper Test & Kyle Katarns Mission"
+	file = "swfo_music_19.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Subterranean Hideout"
+	file = "swfo_music_20.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Taris Upper City"
+	file = "swfo_music_21.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Taris Lower City"
+	file = "swfo_music_22.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Jedi Academy"
+	file = "swfo_music_23.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Bastila Shan"
+	file = "swfo_music_24.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Kreia & the Dark Side"
+	file = "swfo_music_25.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Facing Darth Sion"
+	file = "swfo_music_26.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Inside the Sith Base"
+	file = "swfo_music_27.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Rebuilt Jedi Enclave"
+	file = "swfo_music_28.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Korriban Sith Academy"
+	file = "swfo_music_29.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Imperial Labor Camp"
+	file = "swfo_music_30.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Trust Goes Both Ways"
+	file = "swfo_music_31.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Jedha Arrival"
+	file = "swfo_music_32.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Star Dust"
+	file = "swfo_music_33.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Confrontation on Eadu"
+	file = "swfo_music_34.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Krennics Aspirations"
+	file = "swfo_music_35.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Rebellions Are Built on Hope"
+	file = "swfo_music_36.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Rogue One"
+	file = "swfo_music_37.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Cargo Shuttle SW 0608"
+	file = "swfo_music_38.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Your Father Would Be Proud"
+	file = "swfo_music_39.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Guardians of the Whills Suite"
+	file = "swfo_music_40.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Approaching the Death Star"
+	file = "swfo_music_41.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Emperor Arrives & Death of Yoda"
+	file = "swfo_music_42.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Shuttle Tydirium Approaches Endor"
+	file = "swfo_music_43.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Battle of Endor I"
+	file = "swfo_music_44.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Lightsaber and Ewok Battle"
+	file = "swfo_music_45.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Revenge of the Sith"
+	file = "swfo_music_46.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Anakins Dream"
+	file = "swfo_music_47.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Battle of the Heroes"
+	file = "swfo_music_48.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Anakins Betrayl"
+	file = "swfo_music_49.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Anakin Vs Obi-Wan"
+	file = "swfo_music_50.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Anakins Dark Deeds"
+	file = "swfo_music_51.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Enter Lord Vader"
+	file = "swfo_music_52.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Immolation Scene"
+	file = "swfo_music_53.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Grievous Speaks to Lord Sidious"
+	file = "swfo_music_54.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Birth of the Twins and Padmes Death"
+	file = "swfo_music_55.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Meet Han"
+	file = "swfo_music_56.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Corellia Chase"
+	file = "swfo_music_57.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Spaceport"
+	file = "swfo_music_58.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Landos Closet"
+	file = "swfo_music_59.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Mine Mission"
+	file = "swfo_music_60.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Break Out"
+	file = "swfo_music_61.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Good Guy"
+	file = "swfo_music_62.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Reminiscence Therapy"
+	file = "swfo_music_63.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Battle of Hoth"
+	file = "swfo_music_64.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Jedi Master Revealed & Mynock Cave"
+	file = "swfo_music_65.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Yodas Theme"
+	file = "swfo_music_66.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Betrayl at Bespin"
+	file = "swfo_music_67.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Vice Admiral Thrawn"
+	file = "swfo_music_68.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Grand Admiral Thrawn"
+	file = "swfo_music_69.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Endor Situation"
+	file = "swfo_music_70.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Attack on Jakku Village"
+	file = "swfo_music_71.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Scavenger"
+	file = "swfo_music_72.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Rey Meets BB8"
+	file = "swfo_music_73.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Reys Theme"
+	file = "swfo_music_74.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Finns Confession"
+	file = "swfo_music_75.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Starkiller"
+	file = "swfo_music_76.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "March of the Resistance"
+	file = "swfo_music_77.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Snoke Theme"
+	file = "swfo_music_78.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Jedi Steps and Finale"
+	file = "swfo_music_79.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Escape"
+	file = "swfo_music_80.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Supremacy"
+	file = "swfo_music_81.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Lesson One"
+	file = "swfo_music_82.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Fathiers"
+	file = "swfo_music_83.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Sacred Jedi Texts"
+	file = "swfo_music_84.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "A New Alliance"
+	file = "swfo_music_85.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Chrome Dome"
+	file = "swfo_music_86.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Battle of Crait"
+	file = "swfo_music_87.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Last Jedi"
+	file = "swfo_music_88.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Balmorra The Forge"
+	file = "swfo_music_89.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Domination The Sith Empire"
+	file = "swfo_music_90.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Escape from Zakuul"
+	file = "swfo_music_91.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Fulfilling Destiny"
+	file = "swfo_music_92.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Dragon of Zakuul"
+	file = "swfo_music_93.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Mandalorian Blockade"
+	file = "swfo_music_94.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Occupation of Balmorra"
+	file = "swfo_music_95.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Siege of Alderaan"
+	file = "swfo_music_96.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Valkorion the Immportal Emperor"
+	file = "swfo_music_97.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The Arrival"
+	file = "swfo_music_98.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "SDuel of the Fates"
+	file = "swfo_music_99.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Panaka and the Queens Protectors"
+	file = "swfo_music_100.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Queen Amidala and The Naboo Palace"
+	file = "swfo_music_101.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Qui-Gons Noble End"
+	file = "swfo_music_102.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The High Council Meeting and Qui-Gons Funeral"
+	file = "swfo_music_103.ogg"
+	volume = 0.80
+}

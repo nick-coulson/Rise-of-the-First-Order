@@ -1,0 +1,60 @@
+building_swfo_training_facilities = {
+	base_buildtime = 360
+	base_cap_amount = 1
+	#empire_unique = no
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+	army_modifier = {
+		army_damage_mult = 0.10
+		army_health = 0.05
+	}
+	planet_modifier = {
+		planet_army_build_speed_mult = 0.20
+	}
+	prerequisites = {
+		"tech_building_swfo_training_facilities"
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+
+
+
+building_swfo_atat_factory = {
+	base_buildtime = 360
+	base_cap_amount = 1
+	#empire_unique = no
+	#can_build = no
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+	army_modifier = {
+		army_damage_mult = 0.15
+		army_health = 0.1
+	}
+	planet_modifier = {
+		planet_army_build_speed_mult = 0.2
+	}
+	prerequisites = {
+		"tech_building_swfo_atat_factory"
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}

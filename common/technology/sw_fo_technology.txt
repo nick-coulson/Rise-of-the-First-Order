@@ -1,0 +1,699 @@
+@tier5weight1 = 30
+
+#############################
+# Resurgent Class Destroyer #
+#############################
+
+tech_RESURGENTCLASS = {
+
+	cost = 40000
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	is_rare = no
+	is_reverse_engineerable = no
+	prerequisites = { "tech_RESURGENTREACTOR1" "tech_RESURGENTTHRUSTER1" "tech_starbasebuilding_stardestroyer"  }
+	weight = @tier5weight1
+	
+	#unlock Resurgent Class
+
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 130
+		}
+		modifier = {
+			factor = 3
+			years_passed > 140
+		}
+		modifier = {
+			factor = 4
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+#############################
+# Eclipse class Dreadnought #
+#############################
+
+tech_ECLIPSECLASS = {
+
+	cost = 48000
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	is_rare = no
+	is_reverse_engineerable = no
+	prerequisites = { "tech_SUPREMACYTHRUSTER1" tech_SUPREMACYREACTOR1  }
+	weight = @tier5weight1
+	
+	#unlock Eclipse Class
+
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 130
+		}
+		modifier = {
+			factor = 3
+			years_passed > 140
+		}
+		modifier = {
+			factor = 4
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+##############################
+# Mandator class Dreadnought #
+##############################
+
+tech_MANDATORCLASS = {
+
+	cost = 48000
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	is_rare = no
+	is_reverse_engineerable = no
+	prerequisites = { "tech_SUPREMACYTHRUSTER1" tech_SUPREMACYREACTOR1  }
+	weight = @tier5weight1
+	
+	#unlock Mandator Class
+
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 130
+		}
+		modifier = {
+			factor = 3
+			years_passed > 140
+		}
+		modifier = {
+			factor = 4
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+##############################
+# Supremacy Class Dreadnought#
+##############################
+tech_SUPREMACYCLASS = {
+
+	cost = 60000
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	is_rare = no
+	is_reverse_engineerable = no
+	prerequisites = { "tech_SUPREMACYREACTOR1" "tech_SUPREMACYTHRUSTER1" "tech_supremacyhyperspacetracker" }
+	weight = @tier5weight1
+	
+	#unlock Supremacy Class
+
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 130
+		}
+		modifier = {
+			factor = 3
+			years_passed > 140
+		}
+		modifier = {
+			factor = 4
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+
+
+
+#############
+# THRUSTERS #
+#############
+
+tech_RESURGENTTHRUSTER1 = {
+
+	cost = 36000
+	area = engineering
+	tier = 4
+	category = { propulsion }
+	is_rare = no
+	is_reverse_engineerable = no
+	prerequisites = { "tech_RESURGENTREACTOR1" }	
+	weight = @tier5weight1
+	
+		weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 130
+		}
+		modifier = {
+			factor = 3
+			years_passed > 140
+		}
+		modifier = {
+			factor = 4
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_supremacy_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+
+tech_SUPREMACYTHRUSTER1 = {
+
+	cost = 36000
+	area = engineering
+	tier = 4
+	category = { propulsion }
+	is_rare = no
+	is_reverse_engineerable = no
+	prerequisites = { "tech_RESURGENTREACTOR1" }	
+	weight = @tier5weight1
+	
+		weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 130
+		}
+		modifier = {
+			factor = 3
+			years_passed > 140
+		}
+		modifier = {
+			factor = 4
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_supremacy_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+
+############
+# REACTORS #
+############
+
+
+tech_RESURGENTREACTOR1 = {
+
+	cost = 36000
+	area = physics
+	tier = 4
+	category = { particles }
+	is_rare = no
+	is_reverse_engineerable = no
+	prerequisites = { "tech_starbasebuilding_stardestroyer" }
+	weight = @tier5weight1
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 130
+		}
+		modifier = {
+			factor = 3
+			years_passed > 140
+		}
+		modifier = {
+			factor = 4
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_supremacy_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}	
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+
+
+tech_SUPREMACYREACTOR1 = {
+
+	cost = 40000
+	area = physics
+	tier = 4
+	category = { particles }
+	is_rare = no
+	is_reverse_engineerable = no
+	prerequisites = { "tech_starbasebuilding_stardestroyer" }
+	weight = @tier5weight1
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 130
+		}
+		modifier = {
+			factor = 3
+			years_passed > 140
+		}
+		modifier = {
+			factor = 4
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_supremacy_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}	
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+
+#################
+# Starbase Yard #
+#################
+
+tech_starbasebuilding_stardestroyer = {
+
+	cost = 10000
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = @tier5weight1
+	is_rare = no
+	is_reverse_engineerable = no
+	
+	
+weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 130
+		}
+		modifier = {
+			factor = 3
+			years_passed > 140
+		}
+		modifier = {
+			factor = 4
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+
+#################################
+# Supremacy Hyperspace Tracking #
+#################################
+
+tech_supremacyhyperspacetracker = {
+
+	cost = 26000
+	area = physics
+	tier = 4
+	category = { computing }
+	is_rare = no
+	is_reverse_engineerable = no
+	weight = @tier5weight1
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 130
+		}
+		modifier = {
+			factor = 3
+			years_passed > 140
+		}
+		modifier = {
+			factor = 4
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_supremacy_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}	
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+
+##############
+# Buildings  #
+##############
+
+tech_building_swfo_training_facilities = {
+	cost = 4000
+	area = engineering
+	tier = 1
+	category = { military_theory }
+	weight = @tier5weight1
+	is_rare = no
+	is_reverse_engineerable = no
+	
+weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 40
+		}
+		modifier = {
+			factor = 3
+			years_passed > 50
+		}
+		modifier = {
+			factor = 4
+			years_passed > 60
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+
+
+tech_building_swfo_atat_factory = {
+	cost = 10000
+	area = engineering
+	tier = 1
+	category = { military_theory }
+	weight = @tier5weight1
+	is_rare = no
+	is_reverse_engineerable = no
+	
+weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 40
+		}
+		modifier = {
+			factor = 3
+			years_passed > 50
+		}
+		modifier = {
+			factor = 4
+			years_passed > 60
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+##############
+# Army Types #
+##############
+
+tech_swfo_stormtrooper_legion = {
+
+	cost = 4000
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier5weight1
+	is_rare = no
+	is_reverse_engineerable = no
+	
+	prerequisites = { "tech_building_swfo_training_facilities" }
+	
+weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 40
+		}
+		modifier = {
+			factor = 3
+			years_passed > 50
+		}
+		modifier = {
+			factor = 4
+			years_passed > 60
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+
+
+tech_swfo_atatm6_walker = {
+
+	cost = 10000
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier5weight1
+	is_rare = no
+	is_reverse_engineerable = no
+	
+	prerequisites = { "tech_building_swfo_atat_factory" }
+	
+weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}	
+		modifier = {
+			factor = 2
+			years_passed > 40
+		}
+		modifier = {
+			factor = 3
+			years_passed > 50
+		}
+		modifier = {
+			factor = 4
+			years_passed > 60
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+####################
+# TIE Strike Craft #
+####################
+
+tech_strike_craft_tiefo = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	ai_update_type = military
+	category = { voidcraft }	
+	weight = @tier2weight3
+		
+	#unlock TIE/fo
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}
+
+tech_strike_craft_tiesilencer = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	ai_update_type = military
+	category = { voidcraft }	
+	prerequisites = { "tech_strike_craft_tiefo" }
+	weight = @tier3weight3
+		
+	#unlock TIE Interceptor
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 0	#0 means AI won´t pick it
+	}
+}

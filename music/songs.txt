@@ -1,0 +1,316 @@
+song = {
+	name = "Empire Battle Theme 1"
+}
+
+song = {
+	name = "Empire Battle Theme 2"
+}
+
+song = {
+	name = "Empire Battle Theme 3"
+}
+
+song = {
+	name = "Empire_Battle_Theme_4"
+}
+
+song = {
+	name = "Empire Battle Theme 5"
+}
+
+song = {
+	name = "Empire Battle Theme 6"
+}
+
+song = {
+	name = "Empire Battle Theme 7"
+}
+
+song = {
+	name = "Imperial Attack"
+}
+song = {
+	name = "The Hologram & Binary Sunset"
+}
+song = {
+	name = "Tales Of A Jedi Knight"
+}
+song = {
+	name = "Burning Homestead"
+}
+song = {
+	name = "Cantina Band"
+}
+song = {
+	name = "Princess Leias Theme"
+}
+song = {
+	name = "Shootout In The Cell Bay & Dianoga"
+}
+song = {
+	name = "Ben Kenobis Death & Tie Fighter"
+}
+song = {
+	name = "The Throne & Room End Title"
+}
+song = {
+	name = "Across The Stars"
+}
+song = {
+	name = "Confrontation With Count Dooku"
+}
+song = {
+	name = "Dark Trooper Test & Kyle Katarns Mission"
+}
+song = {
+	name = "The Subterranean Hideout"
+}
+song = {
+	name = "Taris Upper City"
+}
+song = {
+	name = "Taris Lower City"
+}
+song = {
+	name = "The Jedi Academy"
+}
+song = {
+	name = "Bastila Shan"
+}
+song = {
+	name = "Kreia & the Dark Side"
+}
+song = {
+	name = "Facing Darth Sion"
+}
+song = {
+	name = "Inside the Sith Base"
+}
+song = {
+	name = "Rebuilt Jedi Enclave"
+}
+song = {
+	name = "Korriban Sith Academy"
+}
+song = {
+	name = "Imperial Labor Camp"
+}
+song = {
+	name = "Trust Goes Both Ways"
+}
+song = {
+	name = "Jedha Arrival"
+}
+song = {
+	name = "Star Dust"
+}
+song = {
+	name = "Confrontation on Eadu"
+}
+song = {
+	name = "Krennics Aspirations"
+}
+song = {
+	name = "Rebellions Are Built on Hope"
+}
+song = {
+	name = "Rogue One"
+}
+song = {
+	name = "Cargo Shuttle SW 0608"
+}
+song = {
+	name = "Your Father Would Be Proud"
+}
+song = {
+	name = "Guardians of the Whills Suite"
+}
+song = {
+	name = "Approaching the Death Star"
+}
+song = {
+	name = "The Emperor Arrives & Death of Yoda"
+}
+song = {
+	name = "Shuttle Tydirium Approaches Endor"
+}
+song = {
+	name = "The Battle of Endor I"
+}
+song = {
+	name = "The Lightsaber and Ewok Battle"
+}
+song = {
+	name = "Revenge of the Sith"
+}
+song = {
+	name = "Anakins Dream"
+}
+song = {
+	name = "Battle of the Heroes"
+}
+song = {
+	name = "Anakins Betrayl"
+}
+song = {
+	name = "Anakin Vs Obi-Wan"
+}
+song = {
+	name = "Anakins Dark Deeds"
+}
+song = {
+	name = "Enter Lord Vader"
+}
+song = {
+	name = "The Immolation Scene"
+}
+song = {
+	name = "Grievous Speaks to Lord Sidious"
+}
+song = {
+	name = "The Birth of the Twins and Padmes Death"
+}
+song = {
+	name = "Meet Han"
+}
+song = {
+	name = "Corellia Chase"
+}
+song = {
+	name = "Spaceport"
+}
+song = {
+	name = "Landos Closet"
+}
+song = {
+	name = "Mine Mission"
+}
+song = {
+	name = "Break Out"
+}
+song = {
+	name = "The Good Guy"
+}
+song = {
+	name = "Reminiscence Therapy"
+}
+song = {
+	name = "The Battle of Hoth"
+}
+song = {
+	name = "Jedi Master Revealed & Mynock Cave"
+}
+song = {
+	name = "Yodas Theme"
+}
+song = {
+	name = "Betrayl at Bespin"
+}
+song = {
+	name = "Vice Admiral Thrawn"
+}
+song = {
+	name = "Grand Admiral Thrawn"
+}
+song = {
+	name = "The Endor Situation"
+}
+song = {
+	name = "Attack on Jakku Village"
+}
+song = {
+	name = "The Scavenger"
+}
+song = {
+	name = "Rey Meets BB8"
+}
+song = {
+	name = "Reys Theme"
+}
+song = {
+	name = "Finns Confession"
+}
+song = {
+	name = "The Starkiller"
+}
+song = {
+	name = "March of the Resistance"
+}
+song = {
+	name = "Snoke Theme"
+}
+song = {
+	name = "Jedi Steps and Finale"
+}
+song = {
+	name = "Escape"
+}
+song = {
+	name = "The Supremacy"
+}
+song = {
+	name = "Lesson One"
+}
+song = {
+	name = "The Fathiers"
+}
+song = {
+	name = "The Sacred Jedi Texts"
+}
+song = {
+	name = "A New Alliance"
+}
+song = {
+	name = "Chrome Dome"
+}
+song = {
+	name = "The Battle of Crait"
+}
+song = {
+	name = "The Last Jedi"
+}
+song = {
+	name = "Balmorra The Forge"
+}
+song = {
+	name = "Domination The Sith Empire"
+}
+song = {
+	name = "Escape from Zakuul"
+}
+song = {
+	name = "Fulfilling Destiny"
+}
+song = {
+	name = "The Dragon of Zakuul"
+}
+song = {
+	name = "The Mandalorian Blockade"
+}
+song = {
+	name = "The Occupation of Balmorra"
+}
+song = {
+	name = "The Siege of Alderaan"
+}
+song = {
+	name = "Valkorion the Immportal Emperor"
+}
+song = {
+	name = "The Arrival"
+}
+song = {
+	name = "SDuel of the Fates"
+}
+song = {
+	name = "Panaka and the Queens Protectors"
+}
+song = {
+	name = "Queen Amidala and The Naboo Palace"
+}
+song = {
+	name = "Qui-Gons Noble End"
+}
+song = {
+	name = "The High Council Meeting and Qui-Gons Funeral"
+}

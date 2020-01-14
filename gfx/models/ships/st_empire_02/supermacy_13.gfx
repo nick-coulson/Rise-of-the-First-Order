@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "supermacy_13_mesh"
+		file = "gfx/models/ships/st_empire_02/supermacy_13.mesh"
+		scale = 4.0
+
+		meshsettings = {
+			name = "ID668Shape"
+			index = 0
+			texture_diffuse = "material_2.dds"
+			texture_normal = "material_2_normal.dds"
+			texture_specular = "material_2_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

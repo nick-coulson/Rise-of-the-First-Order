@@ -1,0 +1,68 @@
+############Starbase buildings###########
+spriteTypes = {
+	spriteType = {
+		name = "GFX_spaceport_module_stardestroyer_assembly"
+		textureFile = "gfx/interface/icons/modules/spaceport_module_stardestroyer_assembly.dds"
+		noOfFrames = 1
+	}
+	
+}
+
+############Resurgent Class###########
+spriteTypes = {
+	spriteType = {
+		name = "GFX_resurgent_ship_part_reactor_1"
+		textureFile = "gfx/interface/icons/ship_parts/resurgent_ship_part_reactor_1.dds"
+		noOfFrames = 1
+	}
+	
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_resurgent_ship_part_thruster_1"
+		textureFile = "gfx/interface/icons/ship_parts/resurgent_ship_part_thruster_1.dds"
+		noOfFrames = 1
+	}
+	
+}
+############Supremacy Class###########
+spriteTypes = {
+	spriteType = {
+		name = "GFX_supremacy_ship_part_thruster_1"
+		textureFile = "gfx/interface/icons/ship_parts/supremacy_ship_part_thruster_1.dds"
+		noOfFrames = 1
+	}
+	
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_supremacy_ship_part_reactor_1"
+		textureFile = "gfx/interface/icons/ship_parts/supremacy_ship_part_reactor_1.dds"
+		noOfFrames = 1
+	}
+	
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_supremacy_ship_part_hyperspace_tracker"
+		textureFile = "gfx/interface/icons/ship_parts/supremacy_ship_part_hyperspace_tracker.dds"
+		noOfFrames = 1
+	}
+}
+#Eclipse Laser
+spriteTypes = {
+spriteType = {
+		name = "GFX_ship_part_sw_superlaser"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_sw_superlaser_1.dds"
+	}
+}
+#Mandator IV Laser
+spriteTypes = {
+spriteType = {
+		name = "GFX_ship_part_mandator_laser"
+		texturefile = "gfx/interface/icons/ship_parts/mandator_ship_part_laser.dds"
+	}
+}

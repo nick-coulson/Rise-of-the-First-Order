@@ -1,0 +1,3 @@
+firstorder_male_clothes_admiral_01 = {
+	default = "gfx/models/portraits/firstorder/firstorder_male_clothes_admiral_01.dds"
+}

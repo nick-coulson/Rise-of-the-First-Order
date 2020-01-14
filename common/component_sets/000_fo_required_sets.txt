@@ -1,0 +1,14 @@
+component_set = {
+	key = "supremacy_hyperspacetracker_component"
+	
+	required_component_set = yes
+	icon = "GFX_ship_part_sensor"
+	icon_frame = 1	
+}
+component_set = {
+	key = "mandator_orbital_autocannon"
+	
+	required_component_set = yes
+	icon = "GFX_ship_part_sensor"
+	icon_frame = 1	
+}

@@ -1,0 +1,182 @@
+entity = {
+	name = "st_empire_02_supermacy_entity"
+	pdxmesh = "supermacy_1_mesh"
+	scale = 1.0
+
+	attach = { part1 = "supermacy_2_entity" }
+	attach = { part1 = "supermacy_3_entity" }
+	attach = { part1 = "supermacy_4_entity" }
+	attach = { part1 = "supermacy_5_entity" }
+	attach = { part1 = "supermacy_6_entity" }
+	attach = { part1 = "supermacy_7_entity" }
+	attach = { part1 = "supermacy_8_entity" }
+	attach = { part1 = "supermacy_9_entity" }
+	attach = { part1 = "supermacy_10_entity" }
+	attach = { part1 = "supermacy_11_entity" }
+	attach = { part1 = "supermacy_12_entity" }
+	attach = { part1 = "supermacy_13_entity" }
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" 
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_titan_ship_hum_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_titan_ship_hum_02" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_titan_ship_hum_03" } }
+	}
+	state = { name = "moving" animation = "idle"
+		event =  { trigger_once = yes sound = { soundeffect = "moving_out_titan" } }
+	}
+	state = { name = "death" animation = "death" looping = no 
+		event = { time = 2.5 node = "explosion_locator_01" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ship_explosion" } }
+		event = { time = 3.5 node = "explosion_locator_02" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ship_explosion" } }
+		event = { time = 5.5 node = "explosion_locator_03" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ship_explosion" } }
+		event = { time = 7.5 node = "explosion_locator_04" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ship_explosion" } }
+		event = { time = 9.5 node = "explosion_locator_05" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ship_explosion" } }
+		event = { time = 12.5 node = "ship_main" particle = "dreadnought_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "amb_titan_ship_death" } }
+	}
+	game_data = {
+		size = 120
+	}
+}
+entity = {
+	name = "st_empire_02_supermacy_bow_entity"
+	pdxmesh = "supermacy_loactor_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 2
+	#	start_event = { node = "E01" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E02" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E03" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E04" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E05" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E06" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E07" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E08" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E09" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E010" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E011" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E012" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E013" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E014" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E015" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E016" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E017" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E018" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E019" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E020" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E021" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E022" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E023" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E024" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E025" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E026" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E027" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E028" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E029" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E030" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E031" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	#	start_event = { node = "E032" particle = "swfo_l_1_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+	}
+	state = { name = "moving" state_time = 2
+		start_event = { node = "E01" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E02" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E03" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E04" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E05" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E06" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E07" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E08" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E09" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E010" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E011" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E012" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E013" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E014" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E015" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E016" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E017" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E018" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E019" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E020" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E021" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E022" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E023" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E024" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E025" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E026" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E027" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E028" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E029" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E030" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E031" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		start_event = { node = "E032" particle = "swfo_l_1_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+	}
+	state = { name = "death" state_time = 3 looping = no }
+	
+}
+
+
+#############################################Section Model#########################################
+entity = {
+	name = "supermacy_1_entity"
+	pdxmesh = "supermacy_1_mesh"
+}
+
+entity = {
+	name = "supermacy_2_entity"
+	pdxmesh = "supermacy_2_mesh"
+}
+
+entity = {
+	name = "supermacy_3_entity"
+	pdxmesh = "supermacy_3_mesh"
+}
+
+entity = {
+	name = "supermacy_4_entity"
+	pdxmesh = "supermacy_4_mesh"
+}
+
+entity = {
+	name = "supermacy_5_entity"
+	pdxmesh = "supermacy_5_mesh"
+}
+
+entity = {
+	name = "supermacy_6_entity"
+	pdxmesh = "supermacy_6_mesh"
+}
+
+entity = {
+	name = "supermacy_7_entity"
+	pdxmesh = "supermacy_7_mesh"
+}
+
+entity = {
+	name = "supermacy_8_entity"
+	pdxmesh = "supermacy_8_mesh"
+}
+
+entity = {
+	name = "supermacy_9_entity"
+	pdxmesh = "supermacy_9_mesh"
+}
+
+entity = {
+	name = "supermacy_10_entity"
+	pdxmesh = "supermacy_10_mesh"
+}
+
+entity = {
+	name = "supermacy_13_entity"
+	pdxmesh = "supermacy_13_mesh"
+}
+
+entity = {
+	name = "supermacy_12_entity"
+	pdxmesh = "supermacy_12_mesh"
+}
+
+entity = {
+	name = "supermacy_11_entity"
+	pdxmesh = "supermacy_11_mesh"
+}

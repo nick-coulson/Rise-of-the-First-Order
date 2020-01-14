@@ -1,0 +1,21 @@
+firstorder_female_hair_governor_01 = {
+	default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+	
+leader = { 
+	random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_08.dds"
+			}
+		}
+	}
+}

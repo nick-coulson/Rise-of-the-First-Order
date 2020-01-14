@@ -1,0 +1,35 @@
+#######  Resurgent  #######
+
+objectTypes = {
+	pdxmesh = {
+		name = "swfo_resurgent_frame_mesh"
+		file = "gfx/models/ships/st_empire_02/swfo_resurgent_frame.mesh"
+		scale = 2.7
+
+		meshsettings = {
+			name = "st_empire_01_resurgent_allinone"
+			index = 0
+			texture_diffuse = "Finalizer_SD_STEL_diffuse.dds"
+			texture_normal = "Finalizer_SD_STEL_normal.dds"
+			texture_specular = "Finalizer_SD_STEL_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "swfo_resurgent_allinone_mesh"
+		file = "gfx/models/ships/st_empire_02/swfo_resurgent_allinone.mesh"
+		scale = 2.7
+
+		meshsettings = {
+			name = "st_empire_01_resurgent_allinone"
+			index = 0
+			texture_diffuse = "Finalizer_SD_STEL_diffuse.dds"
+			texture_normal = "Finalizer_SD_STEL_normal.dds"
+			texture_specular = "Finalizer_SD_STEL_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+

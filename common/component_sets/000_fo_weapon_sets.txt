@@ -1,0 +1,12 @@
+component_set = {
+	key = "EDY_SUPERLASER"
+	
+	icon = "GFX_ship_part_sw_superlaser"
+	icon_frame = 1	
+}
+component_set = {
+	key = "EDY_sithlaser"
+	
+	icon = "GFX_ship_part_sw_sithlaser"
+	icon_frame = 1	
+}

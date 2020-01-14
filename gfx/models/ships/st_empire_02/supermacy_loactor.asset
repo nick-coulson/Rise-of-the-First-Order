@@ -1,0 +1,4 @@
+entity = {
+	name = "supermacy_loactor_entity"
+	pdxmesh = "supermacy_loactor_mesh"
+}
